@@ -1,0 +1,258 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum QuestionStatus {
+  ACTIVE
+  INACTIVE
+  ARCHIVED
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICE
+  MULTIPLE_ANSWER
+}
+
+enum SessionStatus {
+  CREATED
+  IN_PROGRESS
+  COMPLETED
+  TIMEOUT
+  ABANDONED
+}
+
+enum ImportStatus {
+  PREVIEW
+  COMPLETED
+  PARTIAL
+  FAILED
+}
+
+enum ImportItemStatus {
+  IMPORTED
+  SKIPPED
+  DUPLICATE
+  FAILED
+  REPLACED
+}
+
+model AdminUser {
+  id               String           @id @default(cuid())
+  email            String           @unique
+  passwordHash     String
+  name             String
+  active           Boolean          @default(true)
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+  questionsCreated Question[]       @relation("QuestionCreatedBy")
+  questionsUpdated Question[]       @relation("QuestionUpdatedBy")
+  imports          QuestionImport[]
+}
+
+model Participant {
+  id        String            @id @default(cuid())
+  name      String
+  createdAt DateTime          @default(now())
+  sessions  TrainingSession[]
+
+  @@index([name])
+}
+
+model Material {
+  id          String     @id @default(cuid())
+  name        String     @unique
+  description String?
+  sortOrder   Int        @default(0)
+  active      Boolean    @default(true)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  topics      Topic[]
+  questions   Question[]
+
+  @@index([active, sortOrder])
+}
+
+model Topic {
+  id          String     @id @default(cuid())
+  materialId  String
+  parentId    String?
+  name        String
+  description String?
+  sortOrder   Int        @default(0)
+  active      Boolean    @default(true)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  material    Material   @relation(fields: [materialId], references: [id], onDelete: Restrict)
+  parent      Topic?     @relation("TopicTree", fields: [parentId], references: [id], onDelete: Restrict)
+  children    Topic[]    @relation("TopicTree")
+  questions   Question[]
+
+  @@unique([materialId, parentId, name])
+  @@index([materialId, active, sortOrder])
+}
+
+model Question {
+  id               String                    @id @default(cuid())
+  externalId       String?                   @unique
+  normalizedHash   String
+  materialId       String
+  topicId          String?
+  type             QuestionType              @default(MULTIPLE_CHOICE)
+  text             String
+  explanation      String?
+  imageUrl         String?
+  difficulty       Difficulty?
+  status           QuestionStatus            @default(ACTIVE)
+  source           String?
+  createdById      String?
+  updatedById      String?
+  createdAt        DateTime                  @default(now())
+  updatedAt        DateTime                  @updatedAt
+  material         Material                  @relation(fields: [materialId], references: [id], onDelete: Restrict)
+  topic            Topic?                    @relation(fields: [topicId], references: [id], onDelete: Restrict)
+  options          QuestionOption[]
+  tags             QuestionTag[]
+  sessionQuestions TrainingSessionQuestion[]
+  createdBy        AdminUser?                @relation("QuestionCreatedBy", fields: [createdById], references: [id])
+  updatedBy        AdminUser?                @relation("QuestionUpdatedBy", fields: [updatedById], references: [id])
+
+  @@index([normalizedHash])
+  @@index([materialId, status])
+  @@index([topicId, status])
+  @@index([difficulty, status])
+  @@index([createdAt])
+}
+
+model QuestionOption {
+  id         String   @id @default(cuid())
+  questionId String
+  text       String
+  isCorrect  Boolean  @default(false)
+  sortOrder  Int
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([questionId, sortOrder])
+}
+
+model Tag {
+  id        String        @id @default(cuid())
+  name      String        @unique
+  createdAt DateTime      @default(now())
+  questions QuestionTag[]
+}
+
+model QuestionTag {
+  questionId String
+  tagId      String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  tag        Tag      @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, tagId])
+  @@index([tagId])
+}
+
+model QuestionImport {
+  id            String               @id @default(cuid())
+  fileName      String
+  status        ImportStatus         @default(PREVIEW)
+  totalCount    Int                  @default(0)
+  validCount    Int                  @default(0)
+  warningCount  Int                  @default(0)
+  importedCount Int                  @default(0)
+  skippedCount  Int                  @default(0)
+  failedCount   Int                  @default(0)
+  adminId       String
+  createdAt     DateTime             @default(now())
+  completedAt   DateTime?
+  admin         AdminUser            @relation(fields: [adminId], references: [id])
+  items         QuestionImportItem[]
+
+  @@index([createdAt])
+}
+
+model QuestionImportItem {
+  id           String           @id @default(cuid())
+  importId     String
+  externalId   String?
+  questionText String?
+  status       ImportItemStatus
+  message      String?
+  import       QuestionImport   @relation(fields: [importId], references: [id], onDelete: Cascade)
+
+  @@index([importId, status])
+}
+
+model TrainingSession {
+  id                   String                    @id @default(cuid())
+  publicToken          String                    @unique
+  resultCode           String?                   @unique
+  participantId        String
+  startedAt            DateTime?
+  finishedAt           DateTime?
+  durationMinutes      Int
+  questionCount        Int
+  selectedMaterialIds  String[]
+  selectedTopicIds     String[]
+  selectedDifficulties Difficulty[]
+  status               SessionStatus             @default(CREATED)
+  score                Decimal?                  @db.Decimal(5, 2)
+  correctCount         Int                       @default(0)
+  incorrectCount       Int                       @default(0)
+  unansweredCount      Int                       @default(0)
+  createdAt            DateTime                  @default(now())
+  updatedAt            DateTime                  @updatedAt
+  participant          Participant               @relation(fields: [participantId], references: [id])
+  questions            TrainingSessionQuestion[]
+
+  @@index([status, createdAt])
+  @@index([participantId, createdAt])
+  @@index([startedAt])
+}
+
+model TrainingSessionQuestion {
+  id                  String          @id @default(cuid())
+  sessionId           String
+  questionId          String?
+  orderIndex          Int
+  questionSnapshot    Json
+  optionsSnapshot     Json
+  correctOptionIds    String[]
+  materialSnapshot    String
+  topicSnapshot       String?
+  explanationSnapshot String?
+  session             TrainingSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question            Question?       @relation(fields: [questionId], references: [id], onDelete: SetNull)
+  answer              TrainingAnswer?
+
+  @@unique([sessionId, orderIndex])
+  @@index([questionId])
+}
+
+model TrainingAnswer {
+  id                String                  @id @default(cuid())
+  sessionQuestionId String                  @unique
+  selectedOptionIds String[]
+  isFlagged         Boolean                 @default(false)
+  isCorrect         Boolean?
+  answeredAt        DateTime?
+  responseTimeMs    Int?
+  updatedAt         DateTime                @updatedAt
+  sessionQuestion   TrainingSessionQuestion @relation(fields: [sessionQuestionId], references: [id], onDelete: Cascade)
+}
+
+model AppSetting {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt
+}

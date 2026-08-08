@@ -1,0 +1,4 @@
+import { requireAdmin } from "@/lib/auth";
+import { db } from "@/lib/db";
+const csv=(value:unknown)=>`"${String(value??"").replaceAll('"','""')}"`;
+export async function GET(){await requireAdmin();const sessions=await db.trainingSession.findMany({include:{participant:true},orderBy:{createdAt:"desc"},take:10000});const header=["Participant","Date","Duration","Question Count","Correct","Incorrect","Unanswered","Score","Materials"];const rows=sessions.map(s=>[s.participant.name,s.startedAt?.toISOString(),s.durationMinutes,s.questionCount,s.correctCount,s.incorrectCount,s.unansweredCount,s.score,s.selectedMaterialIds.join("|")]);return new Response([header,...rows].map(row=>row.map(csv).join(",")).join("\r\n"),{headers:{"content-type":"text/csv; charset=utf-8","content-disposition":`attachment; filename="training-sessions.csv"`}})}
