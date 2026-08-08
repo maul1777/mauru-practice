@@ -1,6 +1,25 @@
-# Checklist Deployment Mauru Practice
+# Tutorial Umum Deployment Aplikasi Next.js ke Internet
 
-Ikuti checklist ini secara berurutan. Jangan menyimpan password, database URL, atau secret ke dalam GitHub.
+Tutorial ini dapat digunakan untuk project Next.js lain yang memakai PostgreSQL. GitHub menyimpan source code, Vercel menjalankan aplikasi, dan Neon menyediakan database.
+
+Ikuti checklist secara berurutan. Jangan menyimpan password, database URL, atau secret ke dalam GitHub.
+
+## Cara membaca placeholder
+
+Ganti nilai dalam tanda `<...>` dengan data milik Anda:
+
+| Placeholder | Keterangan |
+| --- | --- |
+| `<PROJECT_FOLDER>` | Lokasi folder project pada komputer |
+| `<GITHUB_USERNAME>` | Username GitHub |
+| `<REPOSITORY_NAME>` | Nama repository/project |
+| `<ADMIN_EMAIL>` | Email admin production |
+| `<ADMIN_PASSWORD>` | Password unik admin, minimal 12 karakter |
+| `<DIRECT_DATABASE_URL>` | Connection string langsung untuk migration |
+| `<POOLED_DATABASE_URL>` | Connection string pooled untuk aplikasi |
+| `<APP_URL>` | URL production dari Vercel |
+
+Contoh: ubah `cd <PROJECT_FOLDER>` menjadi `cd C:\Projects\quiz-app` atau `cd ~/projects/quiz-app`.
 
 ## A. Persiapan akun
 
@@ -12,20 +31,20 @@ Ikuti checklist ini secara berurutan. Jangan menyimpan password, database URL, a
 ## B. Upload source code ke GitHub
 
 - [ ] Buka GitHub dan klik **New repository**.
-- [ ] Gunakan nama repository `mauru-practice`.
-- [ ] Pilih **Public** jika aplikasi dan bank soal boleh dilihat semua orang.
-- [ ] Jangan memilih **Add a README**, `.gitignore`, atau license karena file tersebut sudah tersedia.
+- [ ] Gunakan nama repository `<REPOSITORY_NAME>`.
+- [ ] Pilih **Public** jika source code boleh dilihat semua orang, atau **Private** jika tidak.
+- [ ] Jika project lokal sudah memiliki README, `.gitignore`, atau license, jangan membuat file yang sama dari GitHub agar tidak terjadi konflik saat push pertama.
 - [ ] Klik **Create repository**.
-- [ ] Salin URL repository, misalnya `https://github.com/USERNAME/mauru-practice.git`.
+- [ ] Salin URL repository, misalnya `https://github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git`.
 - [ ] Buka PowerShell dan jalankan:
 
 ```powershell
-cd D:\Belajar\AAPAI\mauru-practice
-git remote add origin https://github.com/USERNAME/mauru-practice.git
+cd <PROJECT_FOLDER>
+git remote add origin https://github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 git push -u origin main
 ```
 
-- [ ] Ganti `USERNAME` dengan username GitHub Anda.
+- [ ] Ganti `<GITHUB_USERNAME>` dengan username GitHub Anda.
 - [ ] Refresh halaman repository dan pastikan seluruh source code tampil.
 - [ ] Buka tab **Actions** dan pastikan workflow CI berjalan.
 - [ ] Pastikan CI berwarna hijau sebelum melanjutkan.
@@ -40,18 +59,18 @@ git remote -v
 Jika URL-nya salah, perbaiki dengan:
 
 ```powershell
-git remote set-url origin https://github.com/USERNAME/mauru-practice.git
+git remote set-url origin https://github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 git push -u origin main
 ```
 
 ## C. Membuat database PostgreSQL Neon
 
 - [ ] Login ke Vercel.
-- [ ] Import repository GitHub `mauru-practice` sebagai project baru.
+- [ ] Import repository GitHub `<REPOSITORY_NAME>` sebagai project baru.
 - [ ] Sebelum production digunakan, buka **Storage** atau **Marketplace** pada project.
 - [ ] Cari dan pilih **Neon Postgres**.
 - [ ] Pilih **Create New Neon Account** jika belum memiliki akun Neon.
-- [ ] Buat project/database baru bernama `mauru-practice`.
+- [ ] Buat project/database baru bernama `<REPOSITORY_NAME>`.
 - [ ] Pilih region terdekat dengan pengguna, misalnya Singapore jika tersedia.
 - [ ] Hubungkan database Neon ke project Vercel.
 - [ ] Di Neon, buka menu **Connect**.
@@ -78,7 +97,7 @@ node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"
 - [ ] Buka project Vercel → **Settings** → **Environment Variables**.
 - [ ] Tambahkan `DATABASE_URL` dengan **pooled connection string** Neon.
 - [ ] Tambahkan `AUTH_SECRET` dengan secret acak yang dibuat sebelumnya.
-- [ ] Tambahkan `APP_URL` dengan URL production, misalnya `https://mauru-practice.vercel.app`.
+- [ ] Tambahkan `APP_URL` dengan URL production, misalnya `<APP_URL>`.
 - [ ] Terapkan variables ke environment **Production**.
 - [ ] Jika Preview Deployment juga harus bekerja, terapkan ke **Preview** menggunakan database/branch terpisah.
 - [ ] Periksa kembali agar nilai variable tidak tertukar.
@@ -86,9 +105,9 @@ node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"
 Environment production minimal:
 
 ```text
-DATABASE_URL=<pooled Neon connection string>
+DATABASE_URL=<POOLED_DATABASE_URL>
 AUTH_SECRET=<random secret minimal 32 byte>
-APP_URL=https://mauru-practice.vercel.app
+APP_URL=<APP_URL>
 ```
 
 ## F. Menjalankan database migration
@@ -99,8 +118,8 @@ APP_URL=https://mauru-practice.vercel.app
 - [ ] Jalankan migration production:
 
 ```powershell
-cd D:\Belajar\AAPAI\mauru-practice
-$env:DATABASE_URL="DIRECT_CONNECTION_STRING_NEON"
+cd <PROJECT_FOLDER>
+$env:DATABASE_URL="<DIRECT_DATABASE_URL>"
 npm install
 npm run db:generate
 npm run db:deploy
@@ -114,9 +133,9 @@ npm run db:deploy
 - [ ] Masih pada PowerShell yang sama, isi email dan password admin production:
 
 ```powershell
-$env:DATABASE_URL="DIRECT_CONNECTION_STRING_NEON"
-$env:ADMIN_EMAIL="admin@example.com"
-$env:ADMIN_INITIAL_PASSWORD="PASSWORD_PRODUCTION_MINIMAL_12_KARAKTER"
+$env:DATABASE_URL="<DIRECT_DATABASE_URL>"
+$env:ADMIN_EMAIL="<ADMIN_EMAIL>"
+$env:ADMIN_INITIAL_PASSWORD="<ADMIN_PASSWORD>"
 npm run db:seed
 ```
 
@@ -130,6 +149,19 @@ Remove-Item Env:ADMIN_EMAIL
 Remove-Item Env:ADMIN_INITIAL_PASSWORD
 ```
 
+## Catatan untuk macOS dan Linux
+
+Perintah Git dan npm sama. Untuk mengatur environment variable, gunakan:
+
+```bash
+export DATABASE_URL='<DIRECT_DATABASE_URL>'
+export ADMIN_EMAIL='<ADMIN_EMAIL>'
+export ADMIN_INITIAL_PASSWORD='<ADMIN_PASSWORD>'
+npm run db:deploy
+npm run db:seed
+unset DATABASE_URL ADMIN_EMAIL ADMIN_INITIAL_PASSWORD
+```
+
 ## H. Deploy aplikasi di Vercel
 
 - [ ] Kembali ke dashboard Vercel.
@@ -139,22 +171,19 @@ Remove-Item Env:ADMIN_INITIAL_PASSWORD
 - [ ] Jika URL production berbeda, perbarui `APP_URL` lalu lakukan redeploy.
 - [ ] Pastikan branch production Vercel adalah `main`.
 
-## I. Import 500 soal
+## I. Import data awal (opsional)
 
-- [ ] Buka `https://URL-APLIKASI/admin/login`.
+- [ ] Lewati bagian ini jika aplikasi tidak membutuhkan import data awal.
+- [ ] Buka `<APP_URL>/admin/login`.
 - [ ] Login menggunakan admin production.
-- [ ] Buka menu **Import Markdown**.
-- [ ] Pilih file `Bank Soal - 1.md` dari repository lokal.
-- [ ] Klik **Preview Parsing**.
-- [ ] Pastikan hasil menunjukkan:
-  - 500 total soal.
-  - 500 soal dapat diproses.
-  - 0 parsing error.
-  - Warning pembahasan boleh muncul karena bank legacy tidak memiliki explanation.
-- [ ] Pilih kebijakan duplikat **Skip (aman)**.
-- [ ] Klik tombol import.
+- [ ] Buka menu import yang disediakan aplikasi.
+- [ ] Pilih file data awal dari komputer lokal.
+- [ ] Jalankan preview atau validasi sebelum import.
+- [ ] Pastikan jumlah data valid sesuai file sumber dan tidak ada parsing error.
+- [ ] Pilih kebijakan duplikat yang paling aman, biasanya **Skip**.
+- [ ] Jalankan import.
 - [ ] Tunggu sampai import selesai.
-- [ ] Buka **Bank Soal** dan pastikan soal telah tersedia.
+- [ ] Buka halaman pengelolaan data dan pastikan seluruh data yang valid telah tersedia.
 
 ## J. Verifikasi production
 
@@ -189,7 +218,7 @@ Remove-Item Env:ADMIN_INITIAL_PASSWORD
 Setelah mengubah source code:
 
 ```powershell
-cd D:\Belajar\AAPAI\mauru-practice
+cd <PROJECT_FOLDER>
 npm test
 npm run lint
 npm run typecheck
@@ -219,6 +248,6 @@ Deployment dianggap selesai jika:
 - [ ] Vercel deployment berstatus **Ready**.
 - [ ] Migration dan seed berhasil.
 - [ ] Admin dapat login.
-- [ ] Bank soal 500 pertanyaan sudah diimpor.
+- [ ] Data awal yang dibutuhkan sudah diimpor atau dibuat.
 - [ ] Participant dapat menyelesaikan quiz dan melihat hasil.
 - [ ] Admin dapat melihat session participant.
