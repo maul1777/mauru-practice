@@ -194,9 +194,9 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
       <header className="topbar"><div className="container brand">Mauru Practice</div></header>
       <div className="container hero">
         <section>
-          <div className="eyebrow">Gratis, statis, dan tanpa akun</div>
-          <h1>Kuasai materi asuransi, satu soal setiap waktu.</h1>
-          <p className="lead">Soal dan pilihan jawaban diacak otomatis. Progres tersimpan hanya di browser perangkat ini, tanpa database dan tanpa mengirim data pribadi ke server.</p>
+          <div className="eyebrow">Latihan AAPAI gratis tanpa akun</div>
+          <h1>Yuk, bisa yuk lulus test AAPAI!</h1>
+          <p className="lead">Latihan dengan soal dan pilihan jawaban yang diacak otomatis. Pelajari hasilnya, ulangi materi yang masih salah, dan persiapkan diri sampai makin yakin menghadapi test AAPAI.</p>
         </section>
         <form className="card" onSubmit={openConfig}>
           <h2>Mulai latihan</h2>
