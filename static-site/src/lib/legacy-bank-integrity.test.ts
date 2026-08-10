@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { parseMarkdownBank } from "./question-import/markdown-parser";
 
-describe("integritas 500 soal lama", () => {
+describe("integritas bank soal statis", () => {
   it("setiap soal memiliki tepat empat opsi A sampai D yang unik", () => {
     const markdown = readFileSync(join(process.cwd(), "data", "bank-soal.md"), "utf8");
     const result = parseMarkdownBank(markdown);
@@ -35,4 +35,24 @@ describe("integritas 500 soal lama", () => {
 
     expect(violations).toEqual([]);
   });
+
+  it("setiap pertanyaan dapat dipahami tanpa soal sebelumnya", () => {
+    const bankFiles = ["bank-soal.md", "aapai-sesi-1-study-guide.md"];
+    const crossReference = /(?:\bsoal\s+(?:(?:nomor\s+)?\d+|sebelumnya)\b|\b(?:kasus|data(?:\s+akun)?)\s+yang\s+sama\b|\b(?:kasus|soal)\s+sebelumnya\b|\bpenutupan\s+tersebut\b|\bmenggunakan\s+data\s+PT\s+Maju\s+Jaya\b|\bpada\s+kasus\s+crane\b)/i;
+    const violations: string[] = [];
+
+    for (const bankFile of bankFiles) {
+      const markdown = readFileSync(join(process.cwd(), "data", bankFile), "utf8");
+      const result = parseMarkdownBank(markdown);
+      for (const question of result.questions) {
+        const learningContent = `${question.text}\n${question.explanation ?? ""}`;
+        if (crossReference.test(learningContent)) {
+          violations.push(`${question.externalId ?? bankFile}: ${learningContent}`);
+        }
+      }
+    }
+
+    expect(violations).toEqual([]);
+  });
+
 });

@@ -275,7 +275,7 @@ Manajemen risiko dan asuransi merupakan disiplin ilmu yang saling berkelindan da
 
 33. PT Maju Jaya memiliki Laba Bersih IDR 200 Juta dan Biaya Tetap IDR 300 Juta. Turnover tahun lalu IDR 2 Miliar. Berapakah ROGP-nya? [A] 10% [B] 25% [C] 15% [D] 30%
 
-34. Menggunakan data PT Maju Jaya, jika akibat kebakaran  turnover  hilang sebesar IDR 500 Juta, berapakah nilai kerugian  Gross Profit -nya (asumsi tanpa ICOW dan saving)? [A] IDR 50 Juta [B] IDR 125 Juta [C] IDR 100 Juta [D] IDR 200 Juta
+34. PT Maju Jaya memiliki Laba Bersih IDR 200 Juta, Biaya Tetap IDR 300 Juta, dan Turnover tahun lalu IDR 2 Miliar. Jika kebakaran menyebabkan turnover hilang IDR 500 Juta, berapakah nilai kerugian Gross Profit (asumsi tanpa ICOW dan saving)? [A] IDR 50 Juta [B] IDR 125 Juta [C] IDR 100 Juta [D] IDR 200 Juta
 
 35. "Specified Working Expenses" adalah biaya-biaya yang: [A] Wajib diasuransikan dalam BI. [B] Dikeluarkan dari perhitungan Gross Profit (Biaya Variabel) karena akan hilang otomatis saat produksi berhenti. [C] Biaya perbaikan mesin. [D] Biaya perjalanan dinas direksi.
 
@@ -331,7 +331,7 @@ Manajemen risiko dan asuransi merupakan disiplin ilmu yang saling berkelindan da
 
 61. PT Logistik memiliki Laba Bersih 500 jt, Standing Charge 1 Miliar, Turnover 10 Miliar. Hitung ROGP: [A] 15% [B] 10% [C] 5% [D] 20%
 
-62. Berdasarkan soal 161, jika turnover hilang 2 Miliar, hitung Loss of Gross Profit: [A] 300 Juta [B] 200 Juta [C] 400 Juta [D] 100 Juta
+62. PT Logistik memiliki Laba Bersih IDR 500 Juta, Standing Charge IDR 1 Miliar, dan Turnover IDR 10 Miliar. Jika turnover hilang IDR 2 Miliar, berapakah Loss of Gross Profit? [A] 300 Juta [B] 200 Juta [C] 400 Juta [D] 100 Juta
 
 63. Apa yang dimaksud dengan "Gross Profit Insured" dalam polis BI? [A] Seluruh laba kotor perusahaan tanpa kecuali. [B] Nilai laba kotor yang dipilih tertanggung untuk diasuransikan (harus mencukupi untuk menghindari prorata). [C] Laba kotor tahun depan. [D] Gaji direktur utama.
 
@@ -371,9 +371,9 @@ Manajemen risiko dan asuransi merupakan disiplin ilmu yang saling berkelindan da
 
 81. PT XYZ memiliki data: Turnover 12 Miliar, Biaya Variabel 8 Miliar, Biaya Tetap 3 Miliar, Laba 1 Miliar. Berapakah ROGP? [A] 33,33% [B] 25% [C] 10% [D] 50%
 
-82. Dari data soal 181, berapakah nilai pertanggungan BI yang disarankan untuk Indemnity Period 12 bulan? [A] 12 Miliar [B] 4 Miliar [C] 1 Miliar [D] 3 Miliar
+82. PT XYZ memiliki Turnover IDR 12 Miliar, Biaya Variabel IDR 8 Miliar, Biaya Tetap IDR 3 Miliar, dan Laba IDR 1 Miliar. Berapakah nilai pertanggungan BI yang disarankan untuk Indemnity Period 12 bulan? [A] 12 Miliar [B] 4 Miliar [C] 1 Miliar [D] 3 Miliar
 
-83. Jika PT XYZ (soal 181) memilih IP 24 bulan, berapakah nilai pertanggungan BI-nya? [A] 4 Miliar [B] 8 Miliar [C] 2 Miliar [D] 24 Miliar
+83. PT XYZ memiliki Turnover IDR 12 Miliar, Biaya Variabel IDR 8 Miliar, Biaya Tetap IDR 3 Miliar, dan Laba IDR 1 Miliar. Berapakah nilai pertanggungan BI yang disarankan jika Indemnity Period yang dipilih adalah 24 bulan? [A] 4 Miliar [B] 8 Miliar [C] 2 Miliar [D] 24 Miliar
 
 84. "Turnover" PT ABC turun dari IDR 100 Juta ke IDR 40 Juta akibat kebakaran. Jika ROGP 30%, berapakah kerugian Gross Profit? [A] IDR 60 Juta [B] IDR 18 Juta [C] IDR 12 Juta [D] IDR 30 Juta
 
@@ -737,7 +737,7 @@ Manajemen risiko dan asuransi merupakan disiplin ilmu yang saling berkelindan da
 
 61. PT Trans Logistik mengirim mesin senilai 1 Miliar dengan syarat FOB. Mesin rusak saat perjalanan truk menuju pelabuhan muat. Siapa yang menanggung risiko? [A] Pembeli. [B] Penjual (karena risiko baru pindah setelah di atas kapal). [C] Perusahaan asuransi pembeli. [D] Kapten kapal.
 
-62. Jika PT Trans Logistik (soal 361) mengirim dengan syarat CIF, siapakah yang mengurus klaim asuransi? [A] Penjual (atas nama pembeli sebagai penerima manfaat). [B] Pembeli saja. [C] Pialang asuransi pelabuhan. [D] Tidak ada yang bisa klaim.
+62. PT Trans Logistik mengirim mesin senilai IDR 1 Miliar dengan syarat CIF. Jika mesin mengalami kerusakan dalam perjalanan, siapakah yang mengurus klaim asuransi? [A] Penjual (atas nama pembeli sebagai penerima manfaat). [B] Pembeli saja. [C] Pialang asuransi pelabuhan. [D] Tidak ada yang bisa klaim.
 
 63. "Institute Cargo Clauses (C)" tidak menjamin risiko: [A] Kebakaran. [B] Pencurian (Theft/Pilferage). [C] Kapal tenggelam. [D] Pembuangan muatan.
 

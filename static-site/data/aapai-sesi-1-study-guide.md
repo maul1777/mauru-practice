@@ -1067,7 +1067,7 @@ id: aapai-sesi-1-057
 material: AAPAI Sesi 1 - Study Guide
 tags: aapai, sesi-1, study-guide
 # Question
-Kasus yang sama: ICOW aktual USD 30,000 dan menyelamatkan turnover USD 90,000. Gross Profit tahun lalu USD 195,000 dan Turnover tahun lalu USD 650,000. Berapakah penggantian klaim ICOW?
+Kasus BI memiliki Indemnity Period 12 bulan, Gross Profit Insured USD 160,000, Turnover USD 500,000, Gross Profit tahun lalu USD 195,000, Turnover tahun lalu USD 650,000, dan tren kenaikan turnover 8%. Jika ICOW aktual USD 30,000 berhasil menyelamatkan turnover USD 90,000, berapakah penggantian klaim ICOW?
 
 ## Options
 - USD 22,500.00
@@ -1086,7 +1086,7 @@ id: aapai-sesi-1-058
 material: AAPAI Sesi 1 - Study Guide
 tags: aapai, sesi-1, study-guide
 # Question
-Kasus yang sama: berapakah Rate of Gross Profit yang seharusnya diterapkan dalam penutupan tersebut?
+Kasus BI memiliki Indemnity Period 12 bulan, Gross Profit Insured USD 160,000, Turnover USD 500,000, Gross Profit tahun lalu USD 195,000, Turnover tahun lalu USD 650,000, dan tren kenaikan turnover 8%. Berapakah Rate of Gross Profit yang seharusnya diterapkan?
 
 ## Options
 - 25%
@@ -1276,7 +1276,7 @@ id: aapai-sesi-1-068
 material: AAPAI Sesi 1 - Study Guide
 tags: aapai, sesi-1, study-guide
 # Question
-Dengan data akun yang sama, nilai Total Standing Charge adalah:
+Berdasarkan data akun berikut, berapakah nilai Total Standing Charge? Opening Stock USD 65,000; Raw Material USD 200,000; Packing USD 12,000; Carriage USD 8,000; Payroll USD 75,000; Standing Charges USD 60,000; Bad Debts USD 2,500; Net Profit USD 62,500; Sales USD 450,000; Closing Stock USD 35,000.
 
 ## Options
 - USD 135,000
@@ -1295,7 +1295,7 @@ id: aapai-sesi-1-069
 material: AAPAI Sesi 1 - Study Guide
 tags: aapai, sesi-1, study-guide
 # Question
-Dengan data akun yang sama, nilai Total Variable Cost adalah:
+Berdasarkan data akun berikut, berapakah nilai Total Variable Cost? Opening Stock USD 65,000; Raw Material USD 200,000; Packing USD 12,000; Carriage USD 8,000; Payroll USD 75,000; Standing Charges USD 60,000; Bad Debts USD 2,500; Net Profit USD 62,500; Sales USD 450,000; Closing Stock USD 35,000.
 
 ## Options
 - USD 222,500
@@ -1371,7 +1371,7 @@ id: aapai-sesi-1-073
 material: AAPAI Sesi 1 - Study Guide
 tags: aapai, sesi-1, study-guide
 # Question
-Pada kasus crane yang menimpa jalur MRT, sebagai broker asuransi, produk yang dapat disarankan kepada operator MRT untuk melindungi aset rel kereta miliknya adalah:
+Sebuah crane menimpa jalur MRT yang telah selesai dibangun dan sedang beroperasi. Sebagai broker asuransi, produk apa yang dapat disarankan kepada operator MRT untuk melindungi aset rel kereta tersebut?
 
 ## Options
 - Construction All Risk
@@ -1839,7 +1839,7 @@ Sebuah perusahaan menutup polis PAR dengan perluasan MB, masing-masing sesuai wo
 PAR tidak menjamin Internal Perils dan MB tidak menjamin Internal Fire
 
 ## Explanation
-Sama dengan soal sebelumnya: internal breakdown berada pada exclusion PAR dan fire berada pada exclusion MB dalam wording yang dirujuk, sehingga a dan b dinilai benar. Catatan: Soal ini muncul dua kali identik pada bank soal.
+Dalam wording yang dirujuk, internal mechanical/electrical breakdown dikecualikan oleh PAR, sedangkan fire dikecualikan oleh MB. Karena itu, kedua ketentuan tersebut menjadi jawaban gabungan yang benar.
 
 ---
 id: aapai-sesi-1-098
