@@ -11,7 +11,7 @@ import {
 type Screen = "welcome" | "config" | "quiz" | "result";
 
 interface SavedState {
-  version: 1;
+  version: 2;
   screen: Screen;
   name: string;
   selectedMaterials: string[];
@@ -21,7 +21,7 @@ interface SavedState {
   session?: QuizSession;
 }
 
-const STORAGE_KEY = "mauru-practice-static-v1";
+const STORAGE_KEY = "mauru-practice-static-v2";
 const QUESTION_COUNT_OPTIONS = [10, 20, 50, 100];
 const DURATION_OPTIONS = [10, 20, 30, 60];
 
@@ -35,7 +35,7 @@ function isSavedState(value: unknown): value is SavedState {
     typeof state.session.deadline === "number" &&
     Array.isArray(state.session.questions)
   );
-  return state.version === 1 && validScreen && typeof state.name === "string" &&
+  return state.version === 2 && validScreen && typeof state.name === "string" &&
     Array.isArray(state.selectedMaterials) && typeof state.questionCount === "number" &&
     typeof state.durationMinutes === "number" && typeof state.currentQuestion === "number" &&
     validSession;
@@ -92,7 +92,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
 
   useEffect(() => {
     const state: SavedState = {
-      version: 1,
+      version: 2,
       screen,
       name,
       selectedMaterials,

@@ -97,7 +97,17 @@ function parseLegacyAnswerKeys(keyBody: string): Map<number, string>[] {
 }
 
 function parseInlineOptions(value: string): { text: string; options: ParsedOption[] } | null {
-  const matches = [...value.matchAll(/(?:^|\s)([A-H])\.\s+/g)];
+  const bracketCandidates = [...value.matchAll(/(?<!\S)\[([A-H])\]\s+/g)];
+  const candidates = bracketCandidates.length >= 2 && bracketCandidates.some((candidate) => candidate[1] === "A")
+    ? bracketCandidates : [...value.matchAll(/(?<!\S)([A-H])\.\s+/g)];
+  const matches: RegExpMatchArray[] = [];
+  let expectedCode = "A".charCodeAt(0);
+  for (const candidate of candidates) {
+    if (candidate[1].charCodeAt(0) !== expectedCode) continue;
+    matches.push(candidate);
+    expectedCode += 1;
+    if (expectedCode > "H".charCodeAt(0)) break;
+  }
   if (matches.length < 2) return null;
   const text = value.slice(0, matches[0].index).trim();
   const options = matches.map((match, index) => ({

@@ -500,7 +500,7 @@ tags: aapai, sesi-1, study-guide
 Bila suatu pabrik mengalami kebakaran akibat sambaran petir dan tertanggung memiliki polis PAR dengan perluasan Business Interruption, maka ganti rugi yang dibayarkan meliputi:
 
 ## Options
-- Semua jawaban salah
+- Tidak ada kerusakan fisik maupun kerugian finansial yang dijamin
 - Hanya kehilangan laba bersih akibat gangguan usaha
 - Kerusakan fisik + kehilangan laba bersih selama periode pemulihan
 - Hanya kerusakan fisik pada bangunan
@@ -541,10 +541,10 @@ Contoh bangunan yang bisa di-cover menggunakan polis CECR:
 - Bendungan
 - Jalan Tol
 - Rel Kereta
-- Semua benar
+- Bendungan, jalan tol, dan rel kereta
 
 ## Answer
-Semua benar
+Bendungan, jalan tol, dan rel kereta
 
 ## Explanation
 CECR ditujukan untuk completed civil engineering structures. Bendungan, jalan tol, dan rel kereta merupakan contoh objek civil engineering yang sudah selesai.
@@ -1108,16 +1108,16 @@ tags: aapai, sesi-1, study-guide
 Manakah yang benar di bawah ini terkait klaim jika basis of loss settlement yang digunakan adalah New Replacement Value: a. Hanya berlaku untuk partial loss/damage saja; b. Berlaku New for Old.
 
 ## Options
-- a. Hanya berlaku untuk partial loss/damage saja
-- b. Berlaku New for Old
-- c. a dan b benar
-- d. a dan b salah
+- Hanya berlaku untuk partial loss/damage saja
+- Berlaku dengan prinsip New for Old
+- Berlaku untuk partial loss/damage dengan prinsip New for Old
+- Tidak berlaku untuk partial loss/damage dan tidak menggunakan prinsip New for Old
 
 ## Answer
-c. a dan b benar
+Berlaku untuk partial loss/damage dengan prinsip New for Old
 
 ## Explanation
-Pada basis NRV, penggantian partial damage menggunakan nilai baru tanpa depresiasi (new for old) sesuai syarat polis. Karena itu a dan b dinilai benar dalam bank soal.
+Pada basis NRV, penggantian partial damage menggunakan nilai baru tanpa depresiasi (new for old) sesuai syarat polis. Kedua ketentuan tersebut menjadi jawaban gabungan yang benar dalam bank soal.
 
 ---
 id: aapai-sesi-1-060
@@ -1450,13 +1450,13 @@ tags: aapai, sesi-1, study-guide
 Pada polis EAR, pertanggungan berakhir pada saat dimulainya uji coba. Hal ini berlaku pada:
 
 ## Options
-- a. Barang baru
-- b. Barang secondhand
-- c. a dan b salah
-- d. a dan b benar
+- Barang baru
+- Barang secondhand
+- Bukan barang baru maupun barang secondhand
+- Barang baru dan barang secondhand
 
 ## Answer
-b. Barang secondhand
+Barang secondhand
 
 ## Explanation
 Untuk barang secondhand, testing risk umumnya tidak dijamin seperti pada new equipment; cover berakhir ketika testing dimulai sesuai ketentuan yang dirujuk soal.
@@ -1564,16 +1564,16 @@ tags: aapai, sesi-1, study-guide
 Polis CAR/EAR disebut juga polis One-Off, karena: a. Tidak bisa di-renew/tidak ada renewal-nya; b. Periodenya mengikuti jadwal proyek.
 
 ## Options
-- a. Tidak bisa di-renew / tidak ada renewal-nya
-- b. Periodenya mengikuti jadwal proyek
-- c. a dan b benar
-- d. a dan b salah
+- Polis tidak dapat diperpanjang
+- Periode polis mengikuti jadwal proyek
+- Polis tidak dapat diperpanjang dan periodenya mengikuti jadwal proyek
+- Polis dapat diperpanjang tahunan dan periodenya tidak mengikuti jadwal proyek
 
 ## Answer
-c. a dan b benar
+Polis tidak dapat diperpanjang dan periodenya mengikuti jadwal proyek
 
 ## Explanation
-Project policy diterbitkan untuk satu proyek dan periodenya mengikuti jadwal proyek, bukan annual renewable policy. Karena itu bank soal menilai a dan b benar.
+Project policy diterbitkan untuk satu proyek dan periodenya mengikuti jadwal proyek, bukan annual renewable policy. Kedua pernyataan tersebut menjadi jawaban gabungan yang benar.
 
 ---
 id: aapai-sesi-1-084
@@ -1738,10 +1738,10 @@ Salah satu Undang-Undang terkait Pelayaran mewajibkan pemilik kapal untuk bertan
 - Minyak dari bahan bakar kapal
 - Minyak dari muatan kapal
 - Minyak dari bahan bakar dan muatan kapal
-- Kedua jawaban di atas salah
+- Bukan minyak dari bahan bakar kapal maupun minyak dari muatan kapal
 
 ## Answer
-Kedua jawaban di atas salah
+Bukan minyak dari bahan bakar kapal maupun minyak dari muatan kapal
 
 ## Explanation
 Jawaban mengikuti kunci bank soal yang menandai 'kedua jawaban di atas salah'. Catatan: pertanyaan ini merujuk aturan pelayaran tertentu tetapi wording sumber tidak menyebut nomor undang-undang; penjelasan lebih spesifik memerlukan verifikasi regulasi.
@@ -1811,16 +1811,16 @@ tags: aapai, sesi-1, study-guide
 Sebuah perusahaan menutup polis PAR dengan perluasan MB, masing-masing sesuai wording Munich Re standar. Ketika mesin bekerja, ada gesekan di dalam mesin yang menimbulkan panas, percikan api, lalu kebakaran yang menghanguskan mesin dari dalam. Pernyataan: a. PAR tidak menjamin risiko dari Internal Perils; b. MB tidak menjamin Internal Fire.
 
 ## Options
-- a. PAR tidak menjamin risiko dari Internal Perils
-- b. MB tidak menjamin Internal Fire
-- c. a dan b benar
-- d. a dan b salah
+- PAR tidak menjamin risiko dari Internal Perils
+- MB tidak menjamin Internal Fire
+- PAR tidak menjamin Internal Perils dan MB tidak menjamin Internal Fire
+- PAR menjamin Internal Perils dan MB menjamin Internal Fire
 
 ## Answer
-c. a dan b benar
+PAR tidak menjamin Internal Perils dan MB tidak menjamin Internal Fire
 
 ## Explanation
-Pada wording yang dirujuk, PAR mengecualikan internal mechanical/electrical breakdown, sedangkan MB mengecualikan fire. Karena penyebab dan akibat berada di batas kedua polis, bank soal menilai a dan b benar.
+Pada wording yang dirujuk, PAR mengecualikan internal mechanical/electrical breakdown, sedangkan MB mengecualikan fire. Karena penyebab dan akibat berada di batas kedua polis, kedua ketentuan tersebut menjadi jawaban gabungan yang benar.
 
 ---
 id: aapai-sesi-1-097
@@ -1830,13 +1830,13 @@ tags: aapai, sesi-1, study-guide
 Sebuah perusahaan menutup polis PAR dengan perluasan MB, masing-masing sesuai wording Munich Re standar. Ketika mesin bekerja, ada gesekan di dalam mesin yang menimbulkan panas, percikan api, lalu kebakaran yang menghanguskan mesin dari dalam. Pernyataan: a. PAR tidak menjamin risiko dari Internal Perils; b. MB tidak menjamin Internal Fire.
 
 ## Options
-- a. PAR tidak menjamin risiko dari Internal Perils
-- b. MB tidak menjamin Internal Fire
-- c. a dan b benar
-- d. a dan b salah
+- PAR tidak menjamin risiko dari Internal Perils
+- MB tidak menjamin Internal Fire
+- PAR tidak menjamin Internal Perils dan MB tidak menjamin Internal Fire
+- PAR menjamin Internal Perils dan MB menjamin Internal Fire
 
 ## Answer
-c. a dan b benar
+PAR tidak menjamin Internal Perils dan MB tidak menjamin Internal Fire
 
 ## Explanation
 Sama dengan soal sebelumnya: internal breakdown berada pada exclusion PAR dan fire berada pada exclusion MB dalam wording yang dirujuk, sehingga a dan b dinilai benar. Catatan: Soal ini muncul dua kali identik pada bank soal.
