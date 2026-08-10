@@ -8,6 +8,7 @@ export default function Home() {
   const bankFiles = [
     "bank-soal.md",
     "aapai-sesi-1-study-guide.md",
+    "aapai-23-juli-2025.md",
   ];
   const parsedQuestions = bankFiles.flatMap((fileName) =>
     parseMarkdownBank(readFileSync(join(process.cwd(), "data", fileName), "utf8")).questions,
