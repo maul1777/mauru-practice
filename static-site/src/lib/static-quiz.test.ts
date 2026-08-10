@@ -35,7 +35,22 @@ describe("static quiz", () => {
     const session = createQuiz(questions, 2, 10, "Maulana", () => 0.999, 0);
     session.questions[0].selectedOptionId = "a";
     const result = calculateQuizResult(session);
-    expect(result).toMatchObject({ score: 50, correctCount: 1, incorrectCount: 0, unansweredCount: 1 });
+    expect(result).toMatchObject({ score: 2, maxScore: 4, correctCount: 1, incorrectCount: 0, unansweredCount: 1 });
     expect(result.breakdown).toHaveLength(2);
+  });
+
+  it("memberi +2 untuk benar, -0,5 untuk salah, dan 0 untuk kosong", () => {
+    const session = createQuiz(questions, 2, 10, "Maulana", () => 0.999, 0);
+    session.questions[0].selectedOptionId = "a";
+    session.questions[1].selectedOptionId = "a";
+
+    expect(calculateQuizResult(session)).toMatchObject({
+      score: 1.5, maxScore: 4, correctCount: 1, incorrectCount: 1, unansweredCount: 0,
+    });
+
+    session.questions[0].selectedOptionId = "b";
+    expect(calculateQuizResult(session)).toMatchObject({
+      score: -1, maxScore: 4, correctCount: 0, incorrectCount: 2, unansweredCount: 0,
+    });
   });
 });

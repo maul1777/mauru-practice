@@ -9,6 +9,7 @@ import {
 } from "@/lib/static-quiz";
 
 type Screen = "welcome" | "config" | "quiz" | "result";
+type ReviewStatus = "correct" | "incorrect" | "unanswered";
 
 interface SavedState {
   version: 2;
@@ -84,6 +85,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
   const [session, setSession] = useState<QuizSession | undefined>(initialState?.session);
   const [now, setNow] = useState(initialState?.session?.startedAt ?? 0);
   const [error, setError] = useState("");
+  const [reviewTab, setReviewTab] = useState<ReviewStatus>("incorrect");
 
   const availableQuestions = useMemo(
     () => questions.filter((question) => selectedMaterials.includes(question.material)),
@@ -143,6 +145,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
     setCurrentQuestion(0);
     setNow(Date.now());
     setError("");
+    setReviewTab("incorrect");
     setScreen("quiz");
   }
 
@@ -183,6 +186,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
     setCurrentQuestion(0);
     setSession(undefined);
     setError("");
+    setReviewTab("incorrect");
   }
 
   if (screen === "welcome") {
@@ -263,7 +267,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
         <div className={"timer " + (remainingSeconds <= 300 ? "warning" : "")}><small className="timer-label">SISA WAKTU</small>{time}</div></div></header>
       <div className="container quiz-layout">
         <section className="card">
-          <div className="muted">{question.material}{question.topic ? " ? " + question.topic : ""}</div>
+          <div className="muted">{question.material}{question.topic ? " - " + question.topic : ""}</div>
           <h2 className="question-number">Soal {safeCurrent + 1} dari {session.questions.length}</h2>
           <p className="question-text">{question.text}</p>
           <div className="stack">{question.options.map((option) =>
@@ -278,7 +282,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
         </section>
         <aside className="card quiz-sidebar">
           <h3>Navigasi Soal</h3>
-          <p className="muted">{answered} dijawab ? {session.questions.length - answered} belum ? {flagged} ditandai</p>
+          <p className="muted">{answered} dijawab | {session.questions.length - answered} belum | {flagged} ditandai</p>
           <div className="navigator">{session.questions.map((item, index) =>
             <button type="button" key={item.id} aria-label={"Buka soal " + (index + 1)}
               className={"nav-number " + (item.selectedOptionId ? "answered " : "") + (item.flagged ? "flagged " : "") + (index === safeCurrent ? "current" : "")}
@@ -291,37 +295,62 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
   }
 
   const result = calculateQuizResult(session);
+  const reviewItems = session.questions.map((question, index) => {
+    const selected = question.options.find((option) => option.id === question.selectedOptionId);
+    const correct = question.options.find((option) => option.isCorrect);
+    const status: ReviewStatus = !selected ? "unanswered" : selected.isCorrect ? "correct" : "incorrect";
+    return { question, index, selected, correct, status };
+  });
+  const reviewTabs: { id: ReviewStatus; label: string; count: number }[] = [
+    { id: "correct", label: "Benar", count: result.correctCount },
+    { id: "incorrect", label: "Salah", count: result.incorrectCount },
+    { id: "unanswered", label: "Tidak Diisi", count: result.unansweredCount },
+  ];
+  const activeReviewItems = reviewItems.filter((item) => item.status === reviewTab);
+  const pointText = result.score.toLocaleString("id-ID", { maximumFractionDigits: 1 });
+
   return <main>
     <header className="topbar"><div className="container quiz-header"><div className="brand">Mauru Practice</div><button className="link-button" onClick={resetQuiz}>Latihan baru</button></div></header>
     <div className="container result-container">
       <section className="card">
         <div className="eyebrow">Hasil latihan</div>
         <h1 className="result-title">Kerja bagus, {session.participantName}.</h1>
-        <div className="result-score">{result.score} / 100</div>
+        <div className="result-score">{pointText} / {result.maxScore} poin</div>
+        <p className="muted score-formula">Benar +2 poin | Salah -0,5 poin | Tidak diisi 0 poin</p>
         <div className="stats result-stats">
-          <div className="stat"><span className="muted">Benar</span><strong>{result.correctCount}</strong></div>
-          <div className="stat"><span className="muted">Salah</span><strong>{result.incorrectCount}</strong></div>
-          <div className="stat"><span className="muted">Tidak dijawab</span><strong>{result.unansweredCount}</strong></div>
+          <div className="stat"><span className="muted">Benar</span><strong>{result.correctCount}</strong><small>+{result.correctCount * 2} poin</small></div>
+          <div className="stat"><span className="muted">Salah</span><strong>{result.incorrectCount}</strong><small>-{(result.incorrectCount * 0.5).toLocaleString("id-ID")} poin</small></div>
+          <div className="stat"><span className="muted">Tidak diisi</span><strong>{result.unansweredCount}</strong><small>0 poin</small></div>
         </div>
         <h2 className="result-section-title">Breakdown materi</h2>
         <div className="stack">{result.breakdown.map((item) =>
-          <div key={item.name} className="notice breakdown"><strong>{item.name}</strong><span>{item.correct} / {item.total} ? {Math.round(item.correct / item.total * 100)}%</span></div>,
+          <div key={item.name} className="notice breakdown"><strong>{item.name}</strong><span>{item.correct} / {item.total} | {Math.round(item.correct / item.total * 100)}%</span></div>,
         )}</div>
       </section>
       <section className="review-section">
-        <h2>Review Jawaban</h2>
-        <div className="stack">{session.questions.map((question, index) => {
-          const selected = question.options.find((option) => option.id === question.selectedOptionId);
-          const correct = question.options.find((option) => option.isCorrect);
-          const status = !selected ? "Tidak dijawab" : selected.isCorrect ? "Benar" : "Salah";
-          return <article className="card" key={question.id}>
-            <div className="eyebrow">Soal {index + 1} ? {status}</div>
+        <h2>Ringkasan untuk Menghafal</h2>
+        <div className="review-tabs" role="tablist" aria-label="Kategori jawaban">
+          {reviewTabs.map((tab) => <button
+            type="button"
+            role="tab"
+            aria-selected={reviewTab === tab.id}
+            aria-controls="review-panel"
+            id={`review-tab-${tab.id}`}
+            className={`review-tab ${reviewTab === tab.id ? "active" : ""}`}
+            key={tab.id}
+            onClick={() => setReviewTab(tab.id)}
+          >{tab.label}<span>{tab.count}</span></button>)}
+        </div>
+        <div className="stack" role="tabpanel" id="review-panel" aria-labelledby={`review-tab-${reviewTab}`} tabIndex={0}>
+          {activeReviewItems.map(({ question, index, selected, correct }) => <article className="card" key={question.id}>
+            <div className="eyebrow">Soal {index + 1} - {question.material}</div>
             <p className="review-question">{question.text}</p>
-            <p><strong>Jawaban Anda:</strong> {selected?.text || "?"}</p>
-            <p><strong>Jawaban Benar:</strong> {correct?.text || "?"}</p>
+            <p><strong>Jawaban Anda:</strong> {selected?.text || "Tidak diisi"}</p>
+            <p><strong>Jawaban Benar:</strong> {correct?.text || "Kunci jawaban tidak tersedia"}</p>
             {question.explanation && <div className="notice"><strong>Pembahasan:</strong> {question.explanation}</div>}
-          </article>;
-        })}</div>
+          </article>)}
+          {activeReviewItems.length === 0 && <div className="card empty-review">Tidak ada soal dalam kategori ini.</div>}
+        </div>
       </section>
       <button className="button full-width" onClick={resetQuiz}>Mulai latihan baru</button>
     </div>

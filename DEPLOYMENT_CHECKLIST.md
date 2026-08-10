@@ -195,7 +195,9 @@ unset DATABASE_URL ADMIN_EMAIL ADMIN_INITIAL_PASSWORD
 - [ ] Pastikan jawaban tetap tersimpan dan timer tidak kembali ke awal.
 - [ ] Tandai satu soal untuk ditinjau.
 - [ ] Submit latihan.
-- [ ] Pastikan nilai, benar, salah, kosong, dan breakdown materi tampil.
+- [ ] Pastikan nilai memakai rumus benar +2, salah -0,5, dan kosong 0.
+- [ ] Pastikan tab Benar, Salah, dan Tidak Diisi menampilkan daftar soal untuk belajar ulang.
+- [ ] Pastikan breakdown materi tampil.
 - [ ] Pastikan result reference code dapat dibuka kembali.
 - [ ] Login ke admin.
 - [ ] Pastikan session participant muncul di menu **Sessions**.

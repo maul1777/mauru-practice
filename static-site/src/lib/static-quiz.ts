@@ -29,6 +29,7 @@ export interface QuizSession {
 
 export interface QuizResult {
   score: number;
+  maxScore: number;
   correctCount: number;
   incorrectCount: number;
   unansweredCount: number;
@@ -77,7 +78,8 @@ export function calculateQuizResult(session: QuizSession): QuizResult {
   }
 
   return {
-    score: session.questions.length === 0 ? 0 : Math.round((correctCount / session.questions.length) * 100),
+    score: correctCount * 2 - incorrectCount * 0.5,
+    maxScore: session.questions.length * 2,
     correctCount,
     incorrectCount,
     unansweredCount,

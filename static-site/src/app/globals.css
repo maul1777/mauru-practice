@@ -74,4 +74,12 @@ th { font-size: .78rem; text-transform: uppercase; color: var(--muted); }
 .result-section-title { margin-top: 32px; }
 .breakdown { display: flex; justify-content: space-between; gap: 16px; }
 .review-section { margin-top: 28px; }
+.score-formula { margin: -10px 0 0; }
+.stat small { color: var(--muted); font-weight: 700; }
+.review-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-bottom: 18px; }
+.review-tab { display: flex; justify-content: center; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: white; color: var(--ink); font-weight: 800; cursor: pointer; }
+.review-tab span { min-width: 24px; border-radius: 999px; padding: 3px 7px; background: #e8efeb; font-size: .78rem; }
+.review-tab:hover, .review-tab.active { border-color: var(--brand); background: #e9f5ef; color: var(--brand-dark); }
+.review-tab.active span { background: var(--brand); color: white; }
+.empty-review { color: var(--muted); text-align: center; }
 @media (max-width: 800px) { .hero, .quiz-layout, .admin-shell { grid-template-columns: 1fr; } .hero { gap: 24px; padding-block: 36px; } .sidebar { padding: 16px; } .sidebar nav { grid-template-columns: repeat(2, 1fr); margin-top: 12px; } .admin-main { padding: 20px 16px; } .stats, .grid-2 { grid-template-columns: 1fr; } h1 { font-size: 3rem; } }
