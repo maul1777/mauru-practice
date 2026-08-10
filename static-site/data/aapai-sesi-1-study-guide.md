@@ -2039,15 +2039,16 @@ tags: aapai, sesi-1, study-guide
 Yang merupakan formula dalam menentukan Laba Kotor adalah .....
 
 ## Options
-- Laba bersih - Biaya tetap
-- Laba bersih + Biaya variabel
 - Laba bersih - Biaya variabel
+- Laba bersih + Biaya variabel
+- Laba bersih - Biaya tetap
+- Laba bersih + Biaya tetap
 
 ## Answer
-Laba bersih + Biaya variabel
+Laba bersih + Biaya tetap
 
 ## Explanation
-Jawaban mengikuti highlight pada PDF, yaitu opsi ke-3. Catatan: Catatan penting: PDF memuat dua opsi yang identik ('Laba Bersih + Biaya variabel') dan hanya opsi ke-3 yang diberi highlight. Secara konsep BI, formula gross profit biasanya perlu merujuk definisi polis/trading account; jangan menggunakan soal ini tanpa mengecek materi pengajar.
+Dalam konteks Business Interruption, Laba Kotor (Gross Profit) dihitung sebagai Laba Bersih ditambah Biaya Tetap yang diasuransikan. Biaya variabel tidak ditambahkan karena berkurang atau berhenti ketika kegiatan usaha terganggu.
 
 ---
 id: aapai-sesi-1-109

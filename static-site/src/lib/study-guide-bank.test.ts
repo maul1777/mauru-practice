@@ -19,6 +19,8 @@ describe("AAPAI Sesi 1 study guide", () => {
     expect(studyGuide.questions).toHaveLength(110);
     expect(new Set(combinedIds).size).toBe(610);
     expect(studyGuide.questions.every((question) => question.material === "AAPAI Sesi 1 - Study Guide")).toBe(true);
+    expect(studyGuide.questions.every((question) => question.options.length === 4)).toBe(true);
+    expect(studyGuide.questions.every((question) => new Set(question.options.map((option) => option.text)).size === 4)).toBe(true);
     expect(studyGuide.questions.every((question) => question.options.filter((option) => option.isCorrect).length === 1)).toBe(true);
   });
 });
