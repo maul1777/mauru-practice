@@ -5,16 +5,21 @@ import { parseMarkdownBank } from "@/lib/question-import/markdown-parser";
 import type { StaticQuestion } from "@/lib/static-quiz";
 
 export default function Home() {
-  const markdown = readFileSync(join(process.cwd(), "data", "bank-soal.md"), "utf8");
-  const parsed = parseMarkdownBank(markdown);
-  const questions: StaticQuestion[] = parsed.questions.map((question, questionIndex) => ({
+  const bankFiles = [
+    "bank-soal.md",
+    "aapai-sesi-1-study-guide.md",
+  ];
+  const parsedQuestions = bankFiles.flatMap((fileName) =>
+    parseMarkdownBank(readFileSync(join(process.cwd(), "data", fileName), "utf8")).questions,
+  );
+  const questions: StaticQuestion[] = parsedQuestions.map((question, questionIndex) => ({
     id: question.externalId || "question-" + (questionIndex + 1),
     material: question.material,
     topic: question.topic,
     text: question.text,
     explanation: question.explanation,
     options: question.options.map((option, optionIndex) => ({
-      id: (question.externalId || "question-" + (questionIndex + 1)) + "-option-" + (option.id || optionIndex + 1),
+      id: (question.externalId || "question-" + (questionIndex + 1)) + "-option-" + (optionIndex + 1),
       text: option.text,
       isCorrect: option.isCorrect,
     })),
