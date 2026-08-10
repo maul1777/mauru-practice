@@ -329,25 +329,45 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
       </section>
       <section className="review-section">
         <h2>Ringkasan untuk Menghafal</h2>
-        <div className="review-tabs" role="tablist" aria-label="Kategori jawaban">
-          {reviewTabs.map((tab) => <button
-            type="button"
-            role="tab"
-            aria-selected={reviewTab === tab.id}
-            aria-controls="review-panel"
-            id={`review-tab-${tab.id}`}
-            className={`review-tab ${reviewTab === tab.id ? "active" : ""}`}
-            key={tab.id}
-            onClick={() => setReviewTab(tab.id)}
-          >{tab.label}<span>{tab.count}</span></button>)}
+        <div className="review-controls">
+          <div className="review-tabs" role="tablist" aria-label="Kategori jawaban">
+            {reviewTabs.map((tab) => <button
+              type="button"
+              role="tab"
+              aria-selected={reviewTab === tab.id}
+              aria-controls="review-panel"
+              id={`review-tab-${tab.id}`}
+              className={`review-tab ${reviewTab === tab.id ? "active" : ""}`}
+              key={tab.id}
+              onClick={() => setReviewTab(tab.id)}
+            >{tab.label}<span>{tab.count}</span></button>)}
+          </div>
+          <div className="review-legend" aria-label="Keterangan warna">
+            <span className="legend-correct">Jawaban benar</span>
+            <span className="legend-incorrect">Pilihan Anda yang salah</span>
+          </div>
         </div>
-        <div className="stack" role="tabpanel" id="review-panel" aria-labelledby={`review-tab-${reviewTab}`} tabIndex={0}>
-          {activeReviewItems.map(({ question, index, selected, correct }) => <article className="card" key={question.id}>
-            <div className="eyebrow">Soal {index + 1} - {question.material}</div>
+        <div className="stack review-list" role="tabpanel" id="review-panel" aria-labelledby={`review-tab-${reviewTab}`} tabIndex={0}>
+          {activeReviewItems.map(({ question, index, selected }) => <article className="card review-card" key={question.id}>
+            <div className="review-card-header">
+              <div className="eyebrow">Soal {index + 1} - {question.material}</div>
+              <span className={`review-status ${reviewTab}`}>{reviewTabs.find((tab) => tab.id === reviewTab)?.label}</span>
+            </div>
             <p className="review-question">{question.text}</p>
-            <p><strong>Jawaban Anda:</strong> {selected?.text || "Tidak diisi"}</p>
-            <p><strong>Jawaban Benar:</strong> {correct?.text || "Kunci jawaban tidak tersedia"}</p>
-            {question.explanation && <div className="notice"><strong>Pembahasan:</strong> {question.explanation}</div>}
+            <div className="review-options">
+              {question.options.map((option) => {
+                const isSelected = option.id === selected?.id;
+                const state = option.isCorrect ? "correct" : isSelected ? "incorrect" : "neutral";
+                const label = option.isCorrect
+                  ? isSelected ? "Jawaban Anda - benar" : "Jawaban benar"
+                  : isSelected ? "Jawaban Anda - salah" : "";
+                return <div className={`review-option ${state}`} key={option.id}>
+                  <span>{option.text}</span>
+                  {label && <small>{label}</small>}
+                </div>;
+              })}
+            </div>
+            {question.explanation && <div className="notice review-explanation"><strong>Pembahasan:</strong> {question.explanation}</div>}
           </article>)}
           {activeReviewItems.length === 0 && <div className="card empty-review">Tidak ada soal dalam kategori ini.</div>}
         </div>
