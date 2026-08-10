@@ -149,7 +149,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
     setScreen("quiz");
   }
 
-  function selectAnswer(questionId: string, optionId: string) {
+  function selectAnswer(questionId: string, optionId?: string) {
     setSession((current) => current ? {
       ...current,
       questions: current.questions.map((question) =>
@@ -272,10 +272,18 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
           <p className="question-text">{question.text}</p>
           <div className="stack">{question.options.map((option) =>
             <label className="option" key={option.id}><input type="radio" name={question.id}
-              checked={question.selectedOptionId === option.id} onChange={() => selectAnswer(question.id, option.id)} /><span>{option.text}</span></label>,
+              checked={question.selectedOptionId === option.id}
+              onClick={(event) => {
+                if (question.selectedOptionId === option.id) {
+                  event.preventDefault();
+                  selectAnswer(question.id, undefined);
+                }
+              }}
+              onChange={() => selectAnswer(question.id, option.id)} /><span>{option.text}</span></label>,
           )}</div>
           <div className="quiz-actions">
             <button type="button" className="button secondary" disabled={safeCurrent === 0} onClick={() => setCurrentQuestion(safeCurrent - 1)}>Sebelumnya</button>
+            <button type="button" className="button secondary" disabled={!question.selectedOptionId} onClick={() => selectAnswer(question.id, undefined)}>Hapus Jawaban</button>
             <button type="button" className="button secondary" onClick={() => toggleFlag(question.id)}>{question.flagged ? "Hapus Tanda" : "Tandai Soal"}</button>
             <button type="button" className="button" disabled={safeCurrent === session.questions.length - 1} onClick={() => setCurrentQuestion(safeCurrent + 1)}>Berikutnya</button>
           </div>
