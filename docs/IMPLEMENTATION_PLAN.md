@@ -1,4 +1,4 @@
-# Mauru Practice — Implementation Plan
+# MTryOut Simulator — Implementation Plan
 
 ## Architecture
 

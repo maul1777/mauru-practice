@@ -1,4 +1,4 @@
-# Mauru Practice Static
+# MTryOut Simulator
 
 Versi tanpa database untuk GitHub Pages.
 

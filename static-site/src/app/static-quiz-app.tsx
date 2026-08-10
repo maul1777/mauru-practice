@@ -191,7 +191,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
 
   if (screen === "welcome") {
     return <main className="shell">
-      <header className="topbar"><div className="container brand">Mauru Practice</div></header>
+      <header className="topbar"><div className="container brand">MTryOut Simulator</div></header>
       <div className="container hero">
         <section>
           <div className="eyebrow">Latihan AAPAI gratis tanpa akun</div>
@@ -218,7 +218,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
       .filter((count) => count > 0)
       .sort((left, right) => left - right);
     return <main>
-      <header className="topbar"><div className="container quiz-header"><div className="brand">Mauru Practice</div><button className="link-button" onClick={resetQuiz}>Mulai ulang</button></div></header>
+      <header className="topbar"><div className="container quiz-header"><div className="brand">MTryOut Simulator</div><button className="link-button" onClick={resetQuiz}>Mulai ulang</button></div></header>
       <div className="container content-narrow">
         <div className="eyebrow">Hai, {name.trim()}</div>
         <h1 className="page-title">Atur latihanmu</h1>
@@ -263,7 +263,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
     const time = String(Math.floor(remainingSeconds / 60)).padStart(2, "0") + ":" + String(remainingSeconds % 60).padStart(2, "0");
 
     return <main>
-      <header className="topbar"><div className="container quiz-header"><div><div className="brand">Mauru Practice</div><small>{session.participantName}</small></div>
+      <header className="topbar"><div className="container quiz-header"><div><div className="brand">MTryOut Simulator</div><small>{session.participantName}</small></div>
         <div className={"timer " + (remainingSeconds <= 300 ? "warning" : "")}><small className="timer-label">SISA WAKTU</small>{time}</div></div></header>
       <div className="container quiz-layout">
         <section className="card">
@@ -310,7 +310,7 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
   const pointText = result.score.toLocaleString("id-ID", { maximumFractionDigits: 1 });
 
   return <main>
-    <header className="topbar"><div className="container quiz-header"><div className="brand">Mauru Practice</div><button className="link-button" onClick={resetQuiz}>Latihan baru</button></div></header>
+    <header className="topbar"><div className="container quiz-header"><div className="brand">MTryOut Simulator</div><button className="link-button" onClick={resetQuiz}>Latihan baru</button></div></header>
     <div className="container result-container">
       <section className="card">
         <div className="eyebrow">Hasil latihan</div>

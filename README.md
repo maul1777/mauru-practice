@@ -1,4 +1,4 @@
-# Mauru Practice
+# MTryOut Simulator
 
 Aplikasi latihan soal asuransi production-oriented dengan import bank soal Markdown, konfigurasi dinamis, randomized session yang dapat dilanjutkan, autosave, timer server-based, scoring, review, dan area admin.
 
