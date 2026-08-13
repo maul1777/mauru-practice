@@ -24,7 +24,7 @@ interface SavedState {
 
 const STORAGE_KEY = "mauru-practice-static-v2";
 const QUESTION_COUNT_OPTIONS = [10, 20, 50, 100];
-const DURATION_OPTIONS = [10, 20, 30, 60];
+const DURATION_OPTIONS = [10, 20, 30, 60, 90, 120, 150];
 
 function isSavedState(value: unknown): value is SavedState {
   if (!value || typeof value !== "object") return false;
