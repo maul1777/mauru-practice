@@ -5,12 +5,8 @@ import { parseMarkdownBank } from "@/lib/question-import/markdown-parser";
 import type { StaticQuestion } from "@/lib/static-quiz";
 
 export default function Home() {
-  const bankFiles = [
-    "bank-soal.md",
-    "aapai-sesi-1-study-guide.md",
-    "aapai-23-juli-2025.md",
-    "aapai-20-okt-2025.md",
-  ];
+  // Bank lama tetap tersimpan di data/, tetapi disembunyikan selama fokus Sesi 2.
+  const bankFiles = ["aapai-sesi-2.md"];
   const parsedQuestions = bankFiles.flatMap((fileName) =>
     parseMarkdownBank(readFileSync(join(process.cwd(), "data", fileName), "utf8")).questions,
   );
