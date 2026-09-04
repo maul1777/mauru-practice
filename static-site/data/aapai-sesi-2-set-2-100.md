@@ -1,6 +1,6 @@
 ---
 id: aapai-sesi-2-set-2-001
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -20,7 +20,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-002
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -40,7 +40,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-003
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -60,7 +60,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-004
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -80,7 +80,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-005
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -100,7 +100,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-006
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -120,7 +120,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-007
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -140,7 +140,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-008
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -160,7 +160,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-009
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -180,7 +180,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-010
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -200,7 +200,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-011
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -220,7 +220,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-012
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -240,7 +240,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-013
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 1
 tags: aapai, sesi-2, set-2
 # Question
@@ -260,7 +260,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 1. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-014
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 2
 tags: aapai, sesi-2, set-2
 # Question
@@ -280,7 +280,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 2. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-015
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 2
 tags: aapai, sesi-2, set-2
 # Question
@@ -300,7 +300,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 2. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-016
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 2
 tags: aapai, sesi-2, set-2
 # Question
@@ -320,7 +320,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 2. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-017
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 2
 tags: aapai, sesi-2, set-2
 # Question
@@ -340,7 +340,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 2. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-018
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 2
 tags: aapai, sesi-2, set-2
 # Question
@@ -360,7 +360,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 2. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-019
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 2
 tags: aapai, sesi-2, set-2
 # Question
@@ -380,7 +380,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 2. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-020
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 2
 tags: aapai, sesi-2, set-2
 # Question
@@ -400,7 +400,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 2. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-021
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 2
 tags: aapai, sesi-2, set-2
 # Question
@@ -420,7 +420,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 2. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-022
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 2
 tags: aapai, sesi-2, set-2
 # Question
@@ -440,7 +440,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 2. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-023
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 2
 tags: aapai, sesi-2, set-2
 # Question
@@ -460,7 +460,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 2. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-024
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 3
 tags: aapai, sesi-2, set-2
 # Question
@@ -480,7 +480,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 3. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-025
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: EBEN Sesi 3
 tags: aapai, sesi-2, set-2
 # Question
@@ -500,7 +500,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik EBEN Sesi 3. Gunakan refere
 
 ---
 id: aapai-sesi-2-set-2-026
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -520,7 +520,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-027
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -540,7 +540,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-028
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -560,7 +560,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-029
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -580,7 +580,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-030
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -600,7 +600,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-031
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -620,7 +620,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-032
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -640,7 +640,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-033
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -660,7 +660,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-034
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -680,7 +680,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-035
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -700,7 +700,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-036
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -720,7 +720,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-037
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -740,7 +740,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-038
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -760,7 +760,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-039
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -780,7 +780,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-040
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Aviation
 tags: aapai, sesi-2, set-2
 # Question
@@ -800,7 +800,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-041
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -820,7 +820,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-042
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -840,7 +840,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-043
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -860,7 +860,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-044
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -880,7 +880,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-045
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -900,7 +900,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-046
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -920,7 +920,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-047
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -940,7 +940,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-048
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -960,7 +960,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-049
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -980,7 +980,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-050
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -1000,7 +1000,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-051
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -1020,7 +1020,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-052
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -1040,7 +1040,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-053
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -1060,7 +1060,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-054
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -1080,7 +1080,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-055
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Financial Lines
 tags: aapai, sesi-2, set-2
 # Question
@@ -1100,7 +1100,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Financial Lines. Gunakan re
 
 ---
 id: aapai-sesi-2-set-2-056
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1120,7 +1120,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-057
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1140,7 +1140,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-058
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1160,7 +1160,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-059
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1180,7 +1180,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-060
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1200,7 +1200,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-061
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1220,7 +1220,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-062
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1240,7 +1240,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-063
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1260,7 +1260,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-064
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1280,7 +1280,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-065
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1300,7 +1300,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-066
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1320,7 +1320,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-067
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1340,7 +1340,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-068
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1360,7 +1360,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-069
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1380,7 +1380,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-070
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: MV & HE
 tags: aapai, sesi-2, set-2
 # Question
@@ -1400,7 +1400,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik MV & HE. Gunakan referensi 
 
 ---
 id: aapai-sesi-2-set-2-071
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Liability
 tags: aapai, sesi-2, set-2
 # Question
@@ -1420,7 +1420,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability. Gunakan referens
 
 ---
 id: aapai-sesi-2-set-2-072
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Liability
 tags: aapai, sesi-2, set-2
 # Question
@@ -1440,7 +1440,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability. Gunakan referens
 
 ---
 id: aapai-sesi-2-set-2-073
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Liability
 tags: aapai, sesi-2, set-2
 # Question
@@ -1460,7 +1460,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability. Gunakan referens
 
 ---
 id: aapai-sesi-2-set-2-074
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Liability
 tags: aapai, sesi-2, set-2
 # Question
@@ -1480,7 +1480,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability. Gunakan referens
 
 ---
 id: aapai-sesi-2-set-2-075
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Liability
 tags: aapai, sesi-2, set-2
 # Question
@@ -1500,7 +1500,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability. Gunakan referens
 
 ---
 id: aapai-sesi-2-set-2-076
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Liability
 tags: aapai, sesi-2, set-2
 # Question
@@ -1520,7 +1520,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability. Gunakan referens
 
 ---
 id: aapai-sesi-2-set-2-077
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Casualty
 tags: aapai, sesi-2, set-2
 # Question
@@ -1540,7 +1540,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-078
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Casualty
 tags: aapai, sesi-2, set-2
 # Question
@@ -1560,7 +1560,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-079
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Casualty
 tags: aapai, sesi-2, set-2
 # Question
@@ -1580,7 +1580,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-080
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Casualty
 tags: aapai, sesi-2, set-2
 # Question
@@ -1600,7 +1600,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-081
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Casualty
 tags: aapai, sesi-2, set-2
 # Question
@@ -1620,7 +1620,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-082
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Casualty
 tags: aapai, sesi-2, set-2
 # Question
@@ -1640,7 +1640,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-083
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Casualty
 tags: aapai, sesi-2, set-2
 # Question
@@ -1660,7 +1660,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-084
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Casualty
 tags: aapai, sesi-2, set-2
 # Question
@@ -1680,7 +1680,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-085
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Casualty
 tags: aapai, sesi-2, set-2
 # Question
@@ -1700,7 +1700,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty. Gunakan referensi
 
 ---
 id: aapai-sesi-2-set-2-086
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1720,7 +1720,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-087
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1740,7 +1740,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-088
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1760,7 +1760,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-089
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1780,7 +1780,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-090
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1800,7 +1800,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-091
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1820,7 +1820,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-092
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1840,7 +1840,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-093
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1860,7 +1860,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-094
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1880,7 +1880,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-095
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1900,7 +1900,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-096
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1920,7 +1920,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-097
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1940,7 +1940,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-098
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1960,7 +1960,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-099
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question
@@ -1980,7 +1980,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah. Gunakan r
 
 ---
 id: aapai-sesi-2-set-2-100
-material: AAPAI Sesi 2 Set 2
+material: Tambahan Sesi 2 - Set 2 - 100 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, set-2
 # Question

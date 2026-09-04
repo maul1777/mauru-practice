@@ -1,6 +1,6 @@
 ---
 id: aapai-sesi-2-100-001
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Employee Benefits - Lanskap
 tags: aapai, sesi-2, bank-100
 # Question
@@ -20,7 +20,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Employee Benefits - Lanskap
 
 ---
 id: aapai-sesi-2-100-002
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Employee Benefits - Konsep
 tags: aapai, sesi-2, bank-100
 # Question
@@ -40,7 +40,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Employee Benefits - Konsep.
 
 ---
 id: aapai-sesi-2-100-003
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Employee Benefits - Prevalensi
 tags: aapai, sesi-2, bank-100
 # Question
@@ -60,7 +60,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Employee Benefits - Prevale
 
 ---
 id: aapai-sesi-2-100-004
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Employee Benefits - Tren
 tags: aapai, sesi-2, bank-100
 # Question
@@ -80,7 +80,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Employee Benefits - Tren. G
 
 ---
 id: aapai-sesi-2-100-005
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Kesehatan
 tags: aapai, sesi-2, bank-100
 # Question
@@ -100,7 +100,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Kesehatan. Gunakan
 
 ---
 id: aapai-sesi-2-100-006
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Kesehatan - Managed Care
 tags: aapai, sesi-2, bank-100
 # Question
@@ -120,7 +120,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Kesehatan - Manage
 
 ---
 id: aapai-sesi-2-100-007
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Kesehatan - Benefit
 tags: aapai, sesi-2, bank-100
 # Question
@@ -140,7 +140,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Kesehatan - Benefi
 
 ---
 id: aapai-sesi-2-100-008
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Kesehatan - Waiting Period
 tags: aapai, sesi-2, bank-100
 # Question
@@ -160,7 +160,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Kesehatan - Waitin
 
 ---
 id: aapai-sesi-2-100-009
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Kesehatan - Underwriting
 tags: aapai, sesi-2, bank-100
 # Question
@@ -180,7 +180,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Kesehatan - Underw
 
 ---
 id: aapai-sesi-2-100-010
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Kesehatan - Pricing
 tags: aapai, sesi-2, bank-100
 # Question
@@ -200,7 +200,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Kesehatan - Pricin
 
 ---
 id: aapai-sesi-2-100-011
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Jiwa Kumpulan - Term Life
 tags: aapai, sesi-2, bank-100
 # Question
@@ -220,7 +220,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Jiwa Kumpulan - Term Life. 
 
 ---
 id: aapai-sesi-2-100-012
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Jiwa Kumpulan - Term Life
 tags: aapai, sesi-2, bank-100
 # Question
@@ -240,7 +240,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Jiwa Kumpulan - Term Life. 
 
 ---
 id: aapai-sesi-2-100-013
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Jiwa Kumpulan - Whole Life
 tags: aapai, sesi-2, bank-100
 # Question
@@ -260,7 +260,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Jiwa Kumpulan - Whole Life.
 
 ---
 id: aapai-sesi-2-100-014
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Jiwa Kumpulan - Whole Life
 tags: aapai, sesi-2, bank-100
 # Question
@@ -280,7 +280,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Jiwa Kumpulan - Whole Life.
 
 ---
 id: aapai-sesi-2-100-015
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Jiwa Kumpulan - Endowment
 tags: aapai, sesi-2, bank-100
 # Question
@@ -300,7 +300,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Jiwa Kumpulan - Endowment. 
 
 ---
 id: aapai-sesi-2-100-016
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Jiwa Kumpulan - Unit Linked
 tags: aapai, sesi-2, bank-100
 # Question
@@ -320,7 +320,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Jiwa Kumpulan - Unit Linked
 
 ---
 id: aapai-sesi-2-100-017
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Jiwa Kumpulan - PAYDI
 tags: aapai, sesi-2, bank-100
 # Question
@@ -340,7 +340,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Jiwa Kumpulan - PAYDI. Guna
 
 ---
 id: aapai-sesi-2-100-018
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Jiwa Kumpulan - Credit Life
 tags: aapai, sesi-2, bank-100
 # Question
@@ -360,7 +360,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Jiwa Kumpulan - Credit Life
 
 ---
 id: aapai-sesi-2-100-019
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Personal Accident
 tags: aapai, sesi-2, bank-100
 # Question
@@ -380,7 +380,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Personal Accident. Gunakan 
 
 ---
 id: aapai-sesi-2-100-020
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Personal Accident - Occupation Class
 tags: aapai, sesi-2, bank-100
 # Question
@@ -400,7 +400,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Personal Accident - Occupat
 
 ---
 id: aapai-sesi-2-100-021
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Personal Accident - Exclusion
 tags: aapai, sesi-2, bank-100
 # Question
@@ -420,7 +420,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Personal Accident - Exclusi
 
 ---
 id: aapai-sesi-2-100-022
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Travel Insurance
 tags: aapai, sesi-2, bank-100
 # Question
@@ -440,7 +440,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Travel Insurance. Gunakan r
 
 ---
 id: aapai-sesi-2-100-023
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Travel Insurance - Peluang
 tags: aapai, sesi-2, bank-100
 # Question
@@ -460,7 +460,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Travel Insurance - Peluang.
 
 ---
 id: aapai-sesi-2-100-024
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Program Pensiun
 tags: aapai, sesi-2, bank-100
 # Question
@@ -480,7 +480,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Program Pensiun. Gunakan re
 
 ---
 id: aapai-sesi-2-100-025
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Program Pensiun
 tags: aapai, sesi-2, bank-100
 # Question
@@ -500,7 +500,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Program Pensiun. Gunakan re
 
 ---
 id: aapai-sesi-2-100-026
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - Legal Basis
 tags: aapai, sesi-2, bank-100
 # Question
@@ -520,7 +520,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - Legal Basis. Gun
 
 ---
 id: aapai-sesi-2-100-027
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - HSL
 tags: aapai, sesi-2, bank-100
 # Question
@@ -540,7 +540,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - HSL. Gunakan ref
 
 ---
 id: aapai-sesi-2-100-028
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - Hull
 tags: aapai, sesi-2, bank-100
 # Question
@@ -560,7 +560,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - Hull. Gunakan re
 
 ---
 id: aapai-sesi-2-100-029
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - Hull Exclusion
 tags: aapai, sesi-2, bank-100
 # Question
@@ -580,7 +580,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - Hull Exclusion. 
 
 ---
 id: aapai-sesi-2-100-030
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - Market Segmentation
 tags: aapai, sesi-2, bank-100
 # Question
@@ -600,7 +600,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - Market Segmentat
 
 ---
 id: aapai-sesi-2-100-031
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - Usage
 tags: aapai, sesi-2, bank-100
 # Question
@@ -620,7 +620,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - Usage. Gunakan r
 
 ---
 id: aapai-sesi-2-100-032
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation Liability
 tags: aapai, sesi-2, bank-100
 # Question
@@ -640,7 +640,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation Liability. Gunakan
 
 ---
 id: aapai-sesi-2-100-033
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation Liability - CSL
 tags: aapai, sesi-2, bank-100
 # Question
@@ -660,7 +660,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation Liability - CSL. G
 
 ---
 id: aapai-sesi-2-100-034
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - AVN52E
 tags: aapai, sesi-2, bank-100
 # Question
@@ -680,7 +680,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - AVN52E. Gunakan 
 
 ---
 id: aapai-sesi-2-100-035
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - War TPL
 tags: aapai, sesi-2, bank-100
 # Question
@@ -700,7 +700,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - War TPL. Gunakan
 
 ---
 id: aapai-sesi-2-100-036
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - Policy Structure
 tags: aapai, sesi-2, bank-100
 # Question
@@ -720,7 +720,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - Policy Structure
 
 ---
 id: aapai-sesi-2-100-037
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - Excess War Liability
 tags: aapai, sesi-2, bank-100
 # Question
@@ -740,7 +740,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - Excess War Liabi
 
 ---
 id: aapai-sesi-2-100-038
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - Hull War
 tags: aapai, sesi-2, bank-100
 # Question
@@ -760,7 +760,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - Hull War. Gunaka
 
 ---
 id: aapai-sesi-2-100-039
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - Hull Deductible
 tags: aapai, sesi-2, bank-100
 # Question
@@ -780,7 +780,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - Hull Deductible.
 
 ---
 id: aapai-sesi-2-100-040
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Aviation - Ground Handling
 tags: aapai, sesi-2, bank-100
 # Question
@@ -800,7 +800,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Aviation - Ground Handling.
 
 ---
 id: aapai-sesi-2-100-041
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Surety Bond
 tags: aapai, sesi-2, bank-100
 # Question
@@ -820,7 +820,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Surety Bond. Gunakan refere
 
 ---
 id: aapai-sesi-2-100-042
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Surety Bond - Accessoir
 tags: aapai, sesi-2, bank-100
 # Question
@@ -840,7 +840,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Surety Bond - Accessoir. Gu
 
 ---
 id: aapai-sesi-2-100-043
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Surety Bond - KUHPerdata
 tags: aapai, sesi-2, bank-100
 # Question
@@ -860,7 +860,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Surety Bond - KUHPerdata. G
 
 ---
 id: aapai-sesi-2-100-044
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Surety Bond - Bid Bond
 tags: aapai, sesi-2, bank-100
 # Question
@@ -880,7 +880,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Surety Bond - Bid Bond. Gun
 
 ---
 id: aapai-sesi-2-100-045
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Surety Bond - Advance Payment
 tags: aapai, sesi-2, bank-100
 # Question
@@ -900,7 +900,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Surety Bond - Advance Payme
 
 ---
 id: aapai-sesi-2-100-046
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Surety Bond - Performance
 tags: aapai, sesi-2, bank-100
 # Question
@@ -920,7 +920,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Surety Bond - Performance. 
 
 ---
 id: aapai-sesi-2-100-047
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Surety Bond - Maintenance
 tags: aapai, sesi-2, bank-100
 # Question
@@ -940,7 +940,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Surety Bond - Maintenance. 
 
 ---
 id: aapai-sesi-2-100-048
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Surety Bond - Parties
 tags: aapai, sesi-2, bank-100
 # Question
@@ -960,7 +960,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Surety Bond - Parties. Guna
 
 ---
 id: aapai-sesi-2-100-049
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Surety vs Insurance
 tags: aapai, sesi-2, bank-100
 # Question
@@ -980,7 +980,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Surety vs Insurance. Gunaka
 
 ---
 id: aapai-sesi-2-100-050
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Credit Insurance
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1000,7 +1000,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Credit Insurance. Gunakan r
 
 ---
 id: aapai-sesi-2-100-051
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Credit Insurance - POJK 20/2023
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1020,7 +1020,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Credit Insurance - POJK 20/
 
 ---
 id: aapai-sesi-2-100-052
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Trade Credit Insurance
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1040,7 +1040,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Trade Credit Insurance. Gun
 
 ---
 id: aapai-sesi-2-100-053
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Trade Credit Insurance - Cover
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1060,7 +1060,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Trade Credit Insurance - Co
 
 ---
 id: aapai-sesi-2-100-054
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Trade Credit Insurance - NQL
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1080,7 +1080,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Trade Credit Insurance - NQ
 
 ---
 id: aapai-sesi-2-100-055
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Trade Credit Insurance - Premium
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1100,7 +1100,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Trade Credit Insurance - Pr
 
 ---
 id: aapai-sesi-2-100-056
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Motor Insurance
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1120,7 +1120,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Motor Insurance. Gunakan re
 
 ---
 id: aapai-sesi-2-100-057
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Motor Insurance - TLO
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1140,7 +1140,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Motor Insurance - TLO. Guna
 
 ---
 id: aapai-sesi-2-100-058
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Motor Insurance - Extension
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1160,7 +1160,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Motor Insurance - Extension
 
 ---
 id: aapai-sesi-2-100-059
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Motor Insurance - Exclusion
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1180,7 +1180,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Motor Insurance - Exclusion
 
 ---
 id: aapai-sesi-2-100-060
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Motor Insurance - Tarif Wilayah
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1200,7 +1200,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Motor Insurance - Tarif Wil
 
 ---
 id: aapai-sesi-2-100-061
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Motor Insurance - Deductible
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1220,7 +1220,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Motor Insurance - Deductibl
 
 ---
 id: aapai-sesi-2-100-062
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Motor Insurance - Usia Kendaraan
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1240,7 +1240,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Motor Insurance - Usia Kend
 
 ---
 id: aapai-sesi-2-100-063
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Motor Insurance - Fleet Discount
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1260,7 +1260,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Motor Insurance - Fleet Dis
 
 ---
 id: aapai-sesi-2-100-064
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Heavy Equipment - Definition
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1280,7 +1280,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Heavy Equipment - Definitio
 
 ---
 id: aapai-sesi-2-100-065
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Heavy Equipment - HE vs CPM
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1300,7 +1300,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Heavy Equipment - HE vs CPM
 
 ---
 id: aapai-sesi-2-100-066
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Heavy Equipment - Sum Insured
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1320,7 +1320,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Heavy Equipment - Sum Insur
 
 ---
 id: aapai-sesi-2-100-067
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Heavy Equipment - Form
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1340,7 +1340,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Heavy Equipment - Form. Gun
 
 ---
 id: aapai-sesi-2-100-068
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Heavy Equipment - Act of God
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1360,7 +1360,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Heavy Equipment - Act of Go
 
 ---
 id: aapai-sesi-2-100-069
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Heavy Equipment - Extension
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1380,7 +1380,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Heavy Equipment - Extension
 
 ---
 id: aapai-sesi-2-100-070
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Heavy Equipment - Exclusion
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1400,7 +1400,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Heavy Equipment - Exclusion
 
 ---
 id: aapai-sesi-2-100-071
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Liability - Legal Standing
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1420,7 +1420,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability - Legal Standing.
 
 ---
 id: aapai-sesi-2-100-072
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Liability - KUHPerdata
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1440,7 +1440,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability - KUHPerdata. Gun
 
 ---
 id: aapai-sesi-2-100-073
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Liability - Vicarious
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1460,7 +1460,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability - Vicarious. Guna
 
 ---
 id: aapai-sesi-2-100-074
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Liability - Elements
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1480,7 +1480,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability - Elements. Gunak
 
 ---
 id: aapai-sesi-2-100-075
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Liability - Source of Claim
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1500,7 +1500,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability - Source of Claim
 
 ---
 id: aapai-sesi-2-100-076
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Liability - Trigger
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1520,7 +1520,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability - Trigger. Gunaka
 
 ---
 id: aapai-sesi-2-100-077
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Liability - Timeline
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1540,7 +1540,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability - Timeline. Gunak
 
 ---
 id: aapai-sesi-2-100-078
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Liability - Claims Made
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1560,7 +1560,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability - Claims Made. Gu
 
 ---
 id: aapai-sesi-2-100-079
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Liability - Types
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1580,7 +1580,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Liability - Types. Gunakan 
 
 ---
 id: aapai-sesi-2-100-080
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Casualty - Coverage
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1600,7 +1600,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty - Coverage. Gunaka
 
 ---
 id: aapai-sesi-2-100-081
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Casualty - Policy Structure
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1620,7 +1620,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty - Policy Structure
 
 ---
 id: aapai-sesi-2-100-082
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Casualty - Occurrence Definition
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1640,7 +1640,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty - Occurrence Defin
 
 ---
 id: aapai-sesi-2-100-083
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Casualty - Pollution
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1660,7 +1660,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty - Pollution. Gunak
 
 ---
 id: aapai-sesi-2-100-084
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Casualty - Product Liability
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1680,7 +1680,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Casualty - Product Liabilit
 
 ---
 id: aapai-sesi-2-100-085
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Money & Fidelity
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1700,7 +1700,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Money & Fidelity. Gunakan r
 
 ---
 id: aapai-sesi-2-100-086
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Definisi
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1720,7 +1720,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah - Definisi
 
 ---
 id: aapai-sesi-2-100-087
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Kontribusi
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1740,7 +1740,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah - Kontribu
 
 ---
 id: aapai-sesi-2-100-088
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Prinsip
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1760,7 +1760,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah - Prinsip.
 
 ---
 id: aapai-sesi-2-100-089
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Tabarru
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1780,7 +1780,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah - Tabarru.
 
 ---
 id: aapai-sesi-2-100-090
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Ujrah
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1800,7 +1800,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah - Ujrah. G
 
 ---
 id: aapai-sesi-2-100-091
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Qardh
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1820,7 +1820,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah - Qardh. G
 
 ---
 id: aapai-sesi-2-100-092
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Surplus Underwriting
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1840,7 +1840,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah - Surplus 
 
 ---
 id: aapai-sesi-2-100-093
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Tanahud
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1860,7 +1860,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah - Tanahud.
 
 ---
 id: aapai-sesi-2-100-094
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Regulasi
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1880,7 +1880,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah - Regulasi
 
 ---
 id: aapai-sesi-2-100-095
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Spin Off
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1900,7 +1900,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Asuransi Syariah - Spin Off
 
 ---
 id: aapai-sesi-2-100-096
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Syariah - Muamalah
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1920,7 +1920,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Syariah - Muamalah. Gunakan
 
 ---
 id: aapai-sesi-2-100-097
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Syariah - Muamalah Maliyah
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1940,7 +1940,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Syariah - Muamalah Maliyah.
 
 ---
 id: aapai-sesi-2-100-098
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Syariah - Maqashid
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1960,7 +1960,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Syariah - Maqashid. Gunakan
 
 ---
 id: aapai-sesi-2-100-099
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Syariah - Larangan
 tags: aapai, sesi-2, bank-100
 # Question
@@ -1980,7 +1980,7 @@ Jawaban sesuai kunci pada dokumen sumber untuk topik Syariah - Larangan. Gunakan
 
 ---
 id: aapai-sesi-2-100-100
-material: AAPAI Sesi 2
+material: Tambahan Sesi 2 - Set 1 - 100 Soal
 topic: Asuransi Syariah - Akad
 tags: aapai, sesi-2, bank-100
 # Question

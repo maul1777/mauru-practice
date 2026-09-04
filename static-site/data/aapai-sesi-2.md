@@ -1,6 +1,6 @@
 ---
 id: aapai-sesi-2-001
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Kredit Perdagangan
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -20,7 +20,7 @@ Ketiga risiko tersebut merupakan penyebab utama piutang dagang tidak tertagih. K
 
 ---
 id: aapai-sesi-2-002
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -40,7 +40,7 @@ Tabarru' adalah kontribusi yang diniatkan sebagai hibah untuk dana risiko bersam
 
 ---
 id: aapai-sesi-2-003
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -60,7 +60,7 @@ Kesalahan operasional yang tidak disengaja dapat termasuk dalam konsep all risks
 
 ---
 id: aapai-sesi-2-004
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -80,7 +80,7 @@ Hull All Risk melindungi kerusakan fisik pesawat, Liability melindungi tanggung 
 
 ---
 id: aapai-sesi-2-005
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -100,7 +100,7 @@ Kunci soal memperlakukan maximum loss exposure sebagai nilai hull terbesar untuk
 
 ---
 id: aapai-sesi-2-006
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Life Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -120,7 +120,7 @@ Pada decreasing term, manfaat meninggal turun mengikuti berkurangnya kewajiban, 
 
 ---
 id: aapai-sesi-2-007
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Life Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -140,7 +140,7 @@ Limited payment membatasi masa pembayaran premi, bukan masa pertanggungan. Setel
 
 ---
 id: aapai-sesi-2-008
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Credit Life
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -160,7 +160,7 @@ Credit Life dirancang untuk melunasi atau mengurangi sisa utang bila tertanggung
 
 ---
 id: aapai-sesi-2-009
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Health Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -180,7 +180,7 @@ Indemnity plan umumnya memberi fleksibilitas lebih luas dalam memilih dokter/rum
 
 ---
 id: aapai-sesi-2-010
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Personal Accident
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -200,7 +200,7 @@ Klasifikasi occupation class membedakan tingkat hazard pekerjaan. Semakin banyak
 
 ---
 id: aapai-sesi-2-011
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Managed Care
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -220,7 +220,7 @@ Pre-authorization adalah kontrol sebelum tindakan medis tertentu dilakukan. Tuju
 
 ---
 id: aapai-sesi-2-012
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Alat Berat
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -240,7 +240,7 @@ ATL terjadi ketika objek pertanggungan benar-benar musnah, hilang permanen, atau
 
 ---
 id: aapai-sesi-2-013
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -260,7 +260,7 @@ Dalam praktik takaful, perusahaan dapat memberikan qardh (pinjaman tanpa imbalan
 
 ---
 id: aapai-sesi-2-014
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -280,7 +280,7 @@ AVN67B dikenal sebagai endorsement yang memberikan perlindungan tertentu kepada 
 
 ---
 id: aapai-sesi-2-015
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation Underwriting
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -300,7 +300,7 @@ Pengalaman pilot pada make/model yang sama merupakan indikator kompetensi yang l
 
 ---
 id: aapai-sesi-2-016
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -320,7 +320,7 @@ Liability insurance merespons tanggung jawab hukum tertanggung terhadap pihak ke
 
 ---
 id: aapai-sesi-2-017
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Money Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -340,7 +340,7 @@ Money Insurance lazimnya berfokus pada uang tunai saat transit, berada di premis
 
 ---
 id: aapai-sesi-2-018
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Health Benefits
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -360,7 +360,7 @@ Plan design changes mengubah struktur benefit, cost-sharing, limit, network, ata
 
 ---
 id: aapai-sesi-2-019
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -380,7 +380,7 @@ Gugatan perdata dapat bersumber dari breach of duty/cedera janji, perbuatan mela
 
 ---
 id: aapai-sesi-2-020
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -400,7 +400,7 @@ Tanggung jawab hukum membutuhkan adanya loss/damage pada pihak lain serta causal
 
 ---
 id: aapai-sesi-2-021
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Unit Link
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -420,7 +420,7 @@ Pada struktur unit link, premi tahun pertama dibagi untuk biaya proteksi/asurans
 
 ---
 id: aapai-sesi-2-022
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Unit Link
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -440,7 +440,7 @@ Equity fund dominan berinvestasi pada saham sehingga volatilitasnya lebih tinggi
 
 ---
 id: aapai-sesi-2-023
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Employee Benefits
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -460,7 +460,7 @@ Dalam skema tarif pajak final pesangon yang digunakan pada materi, lapisan nilai
 
 ---
 id: aapai-sesi-2-024
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Motor Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -480,7 +480,7 @@ Pencurian oleh pihak yang tidak memiliki hubungan khusus dengan tertanggung pada
 
 ---
 id: aapai-sesi-2-025
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -500,7 +500,7 @@ Menurut kunci soal, penentuan limit lebih dikaitkan dengan karakteristik kapasit
 
 ---
 id: aapai-sesi-2-026
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -520,7 +520,7 @@ Wakalah adalah pemberian kuasa. Perusahaan bertindak sebagai wakil untuk mengelo
 
 ---
 id: aapai-sesi-2-027
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -540,7 +540,7 @@ Kontribusi dapat dialokasikan ke Dana Tabarru' untuk risiko bersama dan ujrah se
 
 ---
 id: aapai-sesi-2-028
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Flexible Benefits
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -560,7 +560,7 @@ Core benefits mencakup perlindungan utama yang dianggap wajib atau fundamental. 
 
 ---
 id: aapai-sesi-2-029
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Credit Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -580,7 +580,7 @@ Credit Insurance melindungi kepentingan pemberi kredit sehingga bank menjadi pol
 
 ---
 id: aapai-sesi-2-030
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Trade Credit
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -600,7 +600,7 @@ Setelah pembeli melewati batas waktu perpanjangan pembayaran yang diizinkan, ris
 
 ---
 id: aapai-sesi-2-031
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Travel Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -620,7 +620,7 @@ Annual multi-trip menutup banyak perjalanan dalam satu periode polis sehingga le
 
 ---
 id: aapai-sesi-2-032
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -640,7 +640,7 @@ Model syariah menekankan risk sharing antarpeserta melalui Dana Tabarru'. Prinsi
 
 ---
 id: aapai-sesi-2-033
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -660,7 +660,7 @@ Pihak ketiga adalah pihak di luar hubungan kontraktual utama polis antara insure
 
 ---
 id: aapai-sesi-2-034
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -680,7 +680,7 @@ Dana Tabarru' adalah pool risiko bersama yang berasal dari kontribusi hibah pese
 
 ---
 id: aapai-sesi-2-035
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -700,7 +700,7 @@ Menurut kunci materi, produk ini tidak ditempatkan dalam kelompok polis yang men
 
 ---
 id: aapai-sesi-2-036
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -720,7 +720,7 @@ Ketiga cover tersebut pada struktur yang diuji dapat memiliki pembatasan agregat
 
 ---
 id: aapai-sesi-2-037
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation Underwriting
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -740,7 +740,7 @@ Serial number melekat pada identitas fisik pesawat. Operator, crew, liability li
 
 ---
 id: aapai-sesi-2-038
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -760,7 +760,7 @@ Justru hubungan sebab-akibat adalah elemen penting liability. Bila tidak ada cau
 
 ---
 id: aapai-sesi-2-039
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Alat Berat
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -780,7 +780,7 @@ Contractor's All Risk (CAR) terutama menjamin pekerjaan/proyek konstruksi, sedan
 
 ---
 id: aapai-sesi-2-040
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Motor Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -800,7 +800,7 @@ Kunci pada dokumen menganggap ketentuan ini bukan bagian dari daftar deductible 
 
 ---
 id: aapai-sesi-2-041
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Motor Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -820,7 +820,7 @@ Pencurian/perbuatan jahat secara umum dapat dijamin, tetapi bila pelakunya adala
 
 ---
 id: aapai-sesi-2-042
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Motor Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -840,7 +840,7 @@ Ketiga peril tersebut merupakan bagian dari risiko dasar yang dapat dijamin poli
 
 ---
 id: aapai-sesi-2-043
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Flexible Benefits
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -860,7 +860,7 @@ Program benefit yang fleksibel membuat value proposition perusahaan lebih menari
 
 ---
 id: aapai-sesi-2-044
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Employee Benefits
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -880,7 +880,7 @@ Dalam kerangka generational workforce yang dipakai pada materi employee benefits
 
 ---
 id: aapai-sesi-2-045
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Alat Berat
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -900,7 +900,7 @@ Asuransi alat berat dirancang untuk accidental physical loss or damage. Wear and
 
 ---
 id: aapai-sesi-2-046
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Surety Bond
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -920,7 +920,7 @@ Suretyship melibatkan tiga pihak: principal, obligee, dan surety. Surety memberi
 
 ---
 id: aapai-sesi-2-047
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Trade Credit
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -940,7 +940,7 @@ NQL berfungsi seperti threshold/retention. Kerugian kecil di bawah nilai yang di
 
 ---
 id: aapai-sesi-2-048
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Health Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -960,7 +960,7 @@ Critical illness memberikan manfaat untuk diagnosis penyakit kritis yang ditetap
 
 ---
 id: aapai-sesi-2-049
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Travel Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -980,7 +980,7 @@ Definisi journey pada wording yang diuji memperluas periode perlindungan sebelum
 
 ---
 id: aapai-sesi-2-050
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Professional Indemnity
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1000,7 +1000,7 @@ Pensiun atau berhentinya usaha tidak otomatis menghapus potensi gugatan atas pek
 
 ---
 id: aapai-sesi-2-051
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Suretyship
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1020,7 +1020,7 @@ Kunci soal merujuk langsung pada pengecualian normatif di Pasal 61 ayat (2): keg
 
 ---
 id: aapai-sesi-2-052
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1040,7 +1040,7 @@ Tiga tanggal tersebut menentukan apakah klaim masuk ke policy period dan mekanis
 
 ---
 id: aapai-sesi-2-053
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Trade Credit
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1060,7 +1060,7 @@ Masa tunggu wanprestasi memberi waktu untuk proses penagihan dan memastikan defa
 
 ---
 id: aapai-sesi-2-054
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Trade Credit
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1080,7 +1080,7 @@ Trade credit insurance umumnya membatasi tenor piutang yang eligible agar tetap 
 
 ---
 id: aapai-sesi-2-055
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1100,7 +1100,7 @@ Saat engine masih berada dalam proses removal yang terkait langsung dengan aircr
 
 ---
 id: aapai-sesi-2-056
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1120,7 +1120,7 @@ Setelah engine dilepas dan berada sebagai spare di storage/test facility, status
 
 ---
 id: aapai-sesi-2-057
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Alat Berat
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1140,7 +1140,7 @@ Sum insured harus merepresentasikan economic/replacement value objek agar prinsi
 
 ---
 id: aapai-sesi-2-058
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1160,7 +1160,7 @@ Pasal 1366 memperluas dasar tanggung jawab dari perbuatan aktif ke negligence/im
 
 ---
 id: aapai-sesi-2-059
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Surety Bond
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1180,7 +1180,7 @@ Surety lebih menekankan seleksi kemampuan principal dan hak recovery/subrogasi k
 
 ---
 id: aapai-sesi-2-060
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Employee Benefits
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1200,7 +1200,7 @@ Kelima faktor tersebut mengubah kebutuhan karyawan, pola kerja, biaya benefit, c
 
 ---
 id: aapai-sesi-2-061
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Health Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1220,7 +1220,7 @@ Fee for Service membayar provider berdasarkan jumlah layanan/tindakan yang diber
 
 ---
 id: aapai-sesi-2-062
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Employee Benefits
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1240,7 +1240,7 @@ Strategi ini menekan biaya melalui cost-sharing yang lebih terarah, memindahkan 
 
 ---
 id: aapai-sesi-2-063
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1260,7 +1260,7 @@ Broker bertindak sebagai wakil dalam memberikan jasa perantaraan. Imbalan atas j
 
 ---
 id: aapai-sesi-2-064
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1280,7 +1280,7 @@ Dalam hubungan polis, pihak pertama adalah tertanggung/pemegang polis dan pihak 
 
 ---
 id: aapai-sesi-2-065
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Credit Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1300,7 +1300,7 @@ Objek risikonya adalah default dari borrower terhadap kewajiban finansial berdas
 
 ---
 id: aapai-sesi-2-066
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Professional Indemnity
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1320,7 +1320,7 @@ Kunci soal membedakan subjectivity run-off yang berkaitan dengan deklarasi no kn
 
 ---
 id: aapai-sesi-2-067
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Professional Indemnity
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1340,7 +1340,7 @@ Run-off cover tidak dimaksudkan untuk menutup wrongful act baru setelah usaha/op
 
 ---
 id: aapai-sesi-2-068
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1360,7 +1360,7 @@ Pada claims-made basis, trigger utama adalah klaim pertama kali dibuat terhadap 
 
 ---
 id: aapai-sesi-2-069
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1380,7 +1380,7 @@ Pada occurrence basis, yang menentukan polis mana yang merespons adalah kapan ke
 
 ---
 id: aapai-sesi-2-070
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1400,7 +1400,7 @@ Ground handler memiliki exposure tanggung jawab saat menangani pesawat, baggage,
 
 ---
 id: aapai-sesi-2-071
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Life Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1420,7 +1420,7 @@ Endowment tradisional memiliki manfaat yang ditetapkan dalam kontrak sesuai term
 
 ---
 id: aapai-sesi-2-072
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Life Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1440,7 +1440,7 @@ Endowment membayar manfaat pada akhir periode tertentu atau saat meninggal sehin
 
 ---
 id: aapai-sesi-2-073
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Trade Credit
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1460,7 +1460,7 @@ Premi dihitung dari penjualan yang benar-benar menjadi insured open-credit turno
 
 ---
 id: aapai-sesi-2-074
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1480,7 +1480,7 @@ Retroactive date memperluas eligibility wrongful act ke masa sebelum inception p
 
 ---
 id: aapai-sesi-2-075
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Motor Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1500,7 +1500,7 @@ Dalam praktik TLO, constructive total loss terjadi ketika biaya pemulihan mencap
 
 ---
 id: aapai-sesi-2-076
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Motor Insurance
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1520,7 +1520,7 @@ Kunci menggabungkan risiko tabrakan/benturan/terbalik/tergelincir, perbuatan jah
 
 ---
 id: aapai-sesi-2-077
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Professional Indemnity
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1540,7 +1540,7 @@ Setelah merger/akuisisi, entity atau operasi lama dapat tetap menerima gugatan a
 
 ---
 id: aapai-sesi-2-078
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1560,7 +1560,7 @@ Kerugian berasal dari dugaan professional negligence dalam pemberian layanan med
 
 ---
 id: aapai-sesi-2-079
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1580,7 +1580,7 @@ Gugatan berkaitan dengan kapasitasnya sebagai pengurus/direksi dan keputusan man
 
 ---
 id: aapai-sesi-2-080
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation / Marine Cargo
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1600,7 +1600,7 @@ Saat helikopter menjadi cargo yang diangkut melalui laut, transit exposure utama
 
 ---
 id: aapai-sesi-2-081
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Employee Benefits
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1620,7 +1620,7 @@ Baseline claim = 24 × Rp50 juta = Rp1,2 miliar. Penurunan 25% setara 6 kasus at
 
 ---
 id: aapai-sesi-2-082
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1640,7 +1640,7 @@ Liability sangat bergantung pada aktivitas, jurisdiksi, wording, dan jenis tangg
 
 ---
 id: aapai-sesi-2-083
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1660,7 +1660,7 @@ Jawaban ini mengikuti kunci pada PDF. Dalam konteks klasifikasi materi, exposure
 
 ---
 id: aapai-sesi-2-084
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Aviation
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1680,7 +1680,7 @@ Diversion dilakukan untuk alasan keselamatan dan keadaan darurat medis. Tindakan
 
 ---
 id: aapai-sesi-2-085
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Liability
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1700,7 +1700,7 @@ Dua dasar umum tuntutan perdata adalah tort/perbuatan melawan hukum dan breach o
 
 ---
 id: aapai-sesi-2-086
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1720,7 +1720,7 @@ Klaim peserta dibayar dari risk pool bersama yang dibentuk melalui kontribusi ta
 
 ---
 id: aapai-sesi-2-087
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Surety Bond
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1740,7 +1740,7 @@ Surety bond tidak berdiri sendiri; keberadaannya mengikuti underlying contract a
 
 ---
 id: aapai-sesi-2-088
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1760,7 +1760,7 @@ Underwriting surplus adalah selisih positif ketika kontribusi dan pendapatan yan
 
 ---
 id: aapai-sesi-2-089
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Asuransi Syariah
 tags: aapai, sesi-2, 10-juni-2026
 # Question
@@ -1780,7 +1780,7 @@ Riba adalah tambahan yang dilarang, gharar adalah ketidakpastian berlebihan, dan
 
 ---
 id: aapai-sesi-2-090
-material: AAPAI Sesi 2
+material: Original Sesi 2 - 90 Soal
 topic: Employee Benefits
 tags: aapai, sesi-2, 10-juni-2026
 # Question

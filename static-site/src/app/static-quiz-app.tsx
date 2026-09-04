@@ -52,9 +52,17 @@ function loadSavedState(materials: readonly string[]): SavedState | undefined {
     if (!raw) return undefined;
     const saved: unknown = JSON.parse(raw);
     if (!isSavedState(saved)) return undefined;
+    const materialAliases: Record<string, readonly string[]> = {
+      "AAPAI Sesi 2": [
+        "Original Sesi 2 - 90 Soal",
+        "Tambahan Sesi 2 - Set 1 - 100 Soal",
+        "Tambahan Sesi 2 - Set 2 - 100 Soal",
+      ],
+    };
+    const restoredMaterials = saved.selectedMaterials.flatMap((material) => materialAliases[material] ?? [material]);
     return {
       ...saved,
-      selectedMaterials: saved.selectedMaterials.filter((material) => materials.includes(material)),
+      selectedMaterials: [...new Set(restoredMaterials)].filter((material) => materials.includes(material)),
     };
   } catch {
     window.localStorage.removeItem(STORAGE_KEY);

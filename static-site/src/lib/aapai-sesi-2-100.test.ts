@@ -15,7 +15,7 @@ describe("bank soal AAPAI Sesi 2 100 soal", () => {
     expect(errors).toEqual([]);
     expect(result.questions).toHaveLength(100);
     expect(new Set(normalizedQuestions).size).toBe(100);
-    expect(result.questions.every((question) => question.material === "AAPAI Sesi 2")).toBe(true);
+    expect(result.questions.every((question) => question.material === "Tambahan Sesi 2 - Set 1 - 100 Soal")).toBe(true);
     expect(result.questions.every((question) => Boolean(question.topic))).toBe(true);
     expect(result.questions.every((question) => Boolean(question.explanation))).toBe(true);
     expect(result.questions.every((question) => question.options.length === 4)).toBe(true);

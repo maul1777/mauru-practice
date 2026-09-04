@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { parseMarkdownBank } from "./question-import/markdown-parser";
 
-describe("bank soal AAPAI Sesi 2 Set 2", () => {
+describe("bank soal Tambahan Sesi 2 - Set 2 - 100 Soal", () => {
   it("memuat 100 soal dengan empat opsi unik, satu kunci, dan pembahasan", () => {
     const markdown = readFileSync(join(process.cwd(), "data", "aapai-sesi-2-set-2-100.md"), "utf8");
     const result = parseMarkdownBank(markdown);
@@ -15,7 +15,7 @@ describe("bank soal AAPAI Sesi 2 Set 2", () => {
     expect(errors).toEqual([]);
     expect(result.questions).toHaveLength(100);
     expect(new Set(normalizedQuestions).size).toBe(100);
-    expect(result.questions.every((question) => question.material === "AAPAI Sesi 2 Set 2")).toBe(true);
+    expect(result.questions.every((question) => question.material === "Tambahan Sesi 2 - Set 2 - 100 Soal")).toBe(true);
     expect(result.questions.every((question) => Boolean(question.topic))).toBe(true);
     expect(result.questions.every((question) => Boolean(question.explanation))).toBe(true);
     expect(result.questions.every((question) => question.options.length === 4)).toBe(true);
