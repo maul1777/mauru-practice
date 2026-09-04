@@ -6,7 +6,13 @@ import type { StaticQuestion } from "@/lib/static-quiz";
 
 export default function Home() {
   // Bank lama tetap tersimpan di data/, tetapi disembunyikan selama fokus Sesi 2.
-  const bankFiles = ["aapai-sesi-2.md", "aapai-sesi-2-100.md", "aapai-sesi-2-set-2-100.md"];
+  const bankFiles = [
+    "aapai-sesi-2.md",
+    "aapai-sesi-2-100.md",
+    "aapai-sesi-2-set-2-100.md",
+    "aapai-original-sesi-2-tambahan-1.md",
+    "aapai-original-sesi-2-tambahan-2.md",
+  ];
   const parsedQuestions = bankFiles.flatMap((fileName) =>
     parseMarkdownBank(readFileSync(join(process.cwd(), "data", fileName), "utf8")).questions,
   );

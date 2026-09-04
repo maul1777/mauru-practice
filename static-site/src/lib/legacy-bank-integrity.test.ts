@@ -17,7 +17,7 @@ describe("integritas bank soal statis", () => {
   });
 
   it("tidak memiliki opsi yang bergantung pada label atau posisi", () => {
-    const bankFiles = ["bank-soal.md", "aapai-sesi-1-study-guide.md", "aapai-23-juli-2025.md", "aapai-20-okt-2025.md", "aapai-sesi-2.md", "aapai-sesi-2-100.md", "aapai-sesi-2-set-2-100.md"];
+    const bankFiles = ["bank-soal.md", "aapai-sesi-1-study-guide.md", "aapai-23-juli-2025.md", "aapai-20-okt-2025.md", "aapai-sesi-2.md", "aapai-sesi-2-100.md", "aapai-sesi-2-set-2-100.md", "aapai-original-sesi-2-tambahan-1.md", "aapai-original-sesi-2-tambahan-2.md"];
     const unsafeOption = /(?:^benar\s+(?:semua|[a-h]\s+(?:dan|atau)\s+[a-h])|^semua\s+(?:jawaban\s+)?(?:benar|salah)|^[a-h]\.\s*[a-h]\s+dan\s+[a-h]\s+(?:benar|salah)|^kedua\s+jawaban\s+di\s+atas|^jawaban\s+[a-h](?:\s+(?:dan|atau)\s+[a-h])+|^(?:[a-h]\s*,\s*)+[a-h]\s+dan\s+[a-h]$|peristiwa(?:\s+pada)?\s+[a-h]\s+(?:dan|atau)\s+[a-h])/i;
     const violations: string[] = [];
 
@@ -37,7 +37,7 @@ describe("integritas bank soal statis", () => {
   });
 
   it("setiap pertanyaan dapat dipahami tanpa soal sebelumnya", () => {
-    const bankFiles = ["bank-soal.md", "aapai-sesi-1-study-guide.md", "aapai-23-juli-2025.md", "aapai-20-okt-2025.md", "aapai-sesi-2.md", "aapai-sesi-2-100.md", "aapai-sesi-2-set-2-100.md"];
+    const bankFiles = ["bank-soal.md", "aapai-sesi-1-study-guide.md", "aapai-23-juli-2025.md", "aapai-20-okt-2025.md", "aapai-sesi-2.md", "aapai-sesi-2-100.md", "aapai-sesi-2-set-2-100.md", "aapai-original-sesi-2-tambahan-1.md", "aapai-original-sesi-2-tambahan-2.md"];
     const crossReference = /(?:\bsoal\s+(?:(?:nomor\s+)?\d+|sebelumnya)\b|\b(?:kasus|data(?:\s+akun)?)\s+yang\s+sama\b|\b(?:kasus|soal)\s+sebelumnya\b|\bpenutupan\s+tersebut\b|\bmenggunakan\s+data\s+PT\s+Maju\s+Jaya\b|\bpada\s+kasus\s+crane\b)/i;
     const violations: string[] = [];
 
