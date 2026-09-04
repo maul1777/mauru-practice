@@ -21,13 +21,14 @@ describe("bank soal AAPAI 20 Oktober 2025", () => {
     expect(result.questions.every((question) => question.options.filter((option) => option.isCorrect).length === 1)).toBe(true);
   });
 
-  it("menghasilkan 874 ID unik saat digabungkan dengan seluruh bank", () => {
+  it("menghasilkan 974 ID unik saat digabungkan dengan seluruh bank", () => {
     const bankFiles = [
       "bank-soal.md",
       "aapai-sesi-1-study-guide.md",
       "aapai-23-juli-2025.md",
       "aapai-20-okt-2025.md",
       "aapai-sesi-2.md",
+      "aapai-sesi-2-100.md",
     ];
     const questions = bankFiles.flatMap((fileName) => {
       const markdown = readFileSync(join(process.cwd(), "data", fileName), "utf8");
@@ -35,7 +36,7 @@ describe("bank soal AAPAI 20 Oktober 2025", () => {
     });
     const ids = questions.map((question) => question.externalId);
 
-    expect(questions).toHaveLength(874);
-    expect(new Set(ids).size).toBe(874);
+    expect(questions).toHaveLength(974);
+    expect(new Set(ids).size).toBe(974);
   });
 });
