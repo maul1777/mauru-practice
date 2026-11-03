@@ -202,9 +202,9 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
       <header className="topbar"><div className="container brand">MTryOut Simulator</div></header>
       <div className="container hero">
         <section>
-          <div className="eyebrow">Latihan AAPAI gratis tanpa akun</div>
-          <h1>Yuk, bisa yuk lulus test AAPAI!</h1>
-          <p className="lead">Latihan dengan soal dan pilihan jawaban yang diacak otomatis. Pelajari hasilnya, ulangi materi yang masih salah, dan persiapkan diri sampai makin yakin menghadapi test AAPAI.</p>
+          <div className="eyebrow">Latihan soal gratis tanpa akun</div>
+          <h1>Yuk, bisa yuk lulus test!</h1>
+          <p className="lead">Latihan dengan soal dan pilihan jawaban yang diacak otomatis. Lihat hasil dan pembahasan setelah selesai, lalu ulangi materi yang masih perlu dipelajari.</p>
         </section>
         <form className="card" onSubmit={openConfig}>
           <h2>Mulai latihan</h2>
