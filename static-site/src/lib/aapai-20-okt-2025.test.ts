@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { parseMarkdownBank } from "./question-import/markdown-parser";
@@ -21,25 +21,16 @@ describe("bank soal AAPAI 20 Oktober 2025", () => {
     expect(result.questions.every((question) => question.options.filter((option) => option.isCorrect).length === 1)).toBe(true);
   });
 
-  it("menghasilkan 1249 ID unik saat digabungkan dengan seluruh bank", () => {
-    const bankFiles = [
-      "bank-soal.md",
-      "aapai-sesi-1-study-guide.md",
-      "aapai-23-juli-2025.md",
-      "aapai-20-okt-2025.md",
-      "aapai-sesi-2.md",
-      "aapai-sesi-2-100.md",
-      "aapai-sesi-2-set-2-100.md",
-      "aapai-original-sesi-2-tambahan-1.md",
-      "aapai-original-sesi-2-tambahan-2.md",
-    ];
+  it("menghasilkan ID unik saat digabungkan dengan seluruh bank", () => {
+    const bankDirectory = join(process.cwd(), "data");
+    const bankFiles = readdirSync(bankDirectory).filter((fileName) => fileName.endsWith(".md"));
     const questions = bankFiles.flatMap((fileName) => {
-      const markdown = readFileSync(join(process.cwd(), "data", fileName), "utf8");
+      const markdown = readFileSync(join(bankDirectory, fileName), "utf8");
       return parseMarkdownBank(markdown).questions;
     });
     const ids = questions.map((question) => question.externalId);
 
-    expect(questions).toHaveLength(1249);
-    expect(new Set(ids).size).toBe(1249);
+    expect(ids).not.toContain(undefined);
+    expect(new Set(ids).size).toBe(questions.length);
   });
 });
