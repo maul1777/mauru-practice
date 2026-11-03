@@ -234,10 +234,15 @@ function QuizClient({ questions }: { questions: StaticQuestion[] }) {
         <form className="card stack" onSubmit={startQuiz}>
           <div>
             <div className="label section-label">Materi</div>
-            <div className="choices">{materials.map((material) =>
-              <label className="choice" key={material}><input type="checkbox" checked={selectedMaterials.includes(material)}
-                onChange={() => toggleMaterial(material)} />{material}</label>,
-            )}</div>
+            <div className="choices">
+              {materials.map((material) => {
+                const label = /^(Original|Tambahan) Sesi 2\b/.test(material) ? `AAPAI ${material}` : material;
+                return <label className="choice" key={material}>
+                  <input type="checkbox" checked={selectedMaterials.includes(material)} onChange={() => toggleMaterial(material)} />
+                  {label}
+                </label>;
+              })}
+            </div>
           </div>
           <div className="grid-2">
             <div className="field"><label htmlFor="duration">Durasi</label><select id="duration" className="select" value={durationMinutes}
